@@ -13,6 +13,8 @@ https://www.infoq.com/news/2015/03/code-as-a-crime-scene
 
 ##Tools
 * http://www.adamtornhill.com/code/crimescenetools.htm
+  * Executable Code Maat
+  * Python scripts
 * https://github.com/adamtornhill/code-maat
 * Evolution of Code Maat: https://codescene.io/projects
 
@@ -41,3 +43,16 @@ git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --before=2013-1
 maat -l maat_evo.log -c git -a revisions
 ```
 This way, we identify the parts of the code with most developer activity.
+
+6. Counting lines with cloc (complexity):
+http://cloc.sourceforge.net/
+```
+cloc ./ --by-file --csv --quiet
+```
+
+7. Merge complexity and effort:
+```
+maat -l maat_evo.log -c git -a revisions > maat_freqs.csv
+cloc ./ --by-file --csv --quiet --report-file=maat_lines.csv
+python scrips/merge_comp_freqs.py maat_freqs.csv maat_lines.csv
+ ```
