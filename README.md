@@ -27,6 +27,8 @@ https://www.infoq.com/news/2015/03/code-as-a-crime-scene
   * Between releases
   * Over iterations
   * Around significant events
+* Design to isolate change
+* Stabilize by extracting cohesive design elements
 
 
 ##Creating an offender profile
@@ -67,7 +69,7 @@ cloc ./ --by-file --csv --quiet --report-file=maat_lines.csv
 python scripts/merge_comp_freqs.py maat_freqs.csv maat_lines.csv
  ```
 
-## Analyze Hotspots in Large-Scale Systems
+##Analyze Hotspots in Large-Scale Systems
 git clone https://github.com/hibernate/hibernate-orm.git
 
 1. Move to 2013 in the Code Maat repository:
@@ -100,5 +102,10 @@ python scripts/merge_comp_freqs.py hib_freqs.csv hib_lines.csv
 6. Visualize the data!!!
 ```
 python csv_as_enclosure_json.py -h
-python csv_as_enclosure_json.py --structure hib_lines.csv --weights hib_freqs.csv
+python csv_as_enclosure_json.py --structure hib_lines.csv --weights hib_freqs.csv > hib_hotspot.json
 ```
+Update the hibzoomable.html to reference that JSON file
+
+
+##Judge Hotspots with the Powe of Names
+TBD
