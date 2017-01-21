@@ -15,11 +15,21 @@ https://www.infoq.com/news/2015/03/code-as-a-crime-scene
 * http://www.adamtornhill.com/code/crimescenetools.htm
   * Executable Code Maat
   * Python scripts
+  * Sample files
 * https://github.com/adamtornhill/code-maat
 * Evolution of Code Maat: https://codescene.io/projects
 
 
-##Steps
+##Notes
+* The number of lines of code is not the best metric for complexity... but the others are not much better (at this that one is simple and language-agnostic).
+* The number of commits depends on the style of each developer (baby steps or not).
+* Choose a timespan for your analyses, not the project's total lifetime: it might obscure important recent trends and flag hotspots that no longer exist.
+  * Between releases
+  * Over iterations
+  * Around significant events
+
+
+##Creating an offender profile
 1. Move to 2013 in the Code Maat repository:
 ```
 git checkout `git rev-list -n 1 --before="2013-11-01" master`
@@ -54,5 +64,41 @@ cloc ./ --by-file --csv --quiet
 ```
 maat -l maat_evo.log -c git -a revisions > maat_freqs.csv
 cloc ./ --by-file --csv --quiet --report-file=maat_lines.csv
-python scrips/merge_comp_freqs.py maat_freqs.csv maat_lines.csv
+python scripts/merge_comp_freqs.py maat_freqs.csv maat_lines.csv
  ```
+
+## Analyze Hotspots in Large-Scale Systems
+git clone https://github.com/hibernate/hibernate-orm.git
+
+1. Move to 2013 in the Code Maat repository:
+```
+git checkout `git rev-list -n 1 --before="2013-09-05" master`
+```
+
+3. Generate a log
+```
+git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --before=2013-19-05 --after=2012-01-01 > hib_evo.log
+```
+`maat -l hib_evo.log -c git -a summary`
+
+4. Merge complexity and effort:
+```
+cloc ./ --by-file --csv --quiet --report-file=hib_lines.csv
+maat -l hib_evo.log -c git -a revisions > hib_freqs.csv
+python scripts/merge_comp_freqs.py hib_freqs.csv hib_lines.csv
+```
+
+5. Launch the Hotspot visualizations
+* Download the samples file of the book from its website
+* Go to `samples/hibernate/`
+* Run `python -m SimpleHTTPServer 8888`
+* Go to http://localhost:8888/hibzoomable.html
+  * A circle represents a module
+  * Circle packing: the more complex a module (number of lines), the larger the circle
+  * The more effor spent on a module, the more intense its color
+
+6. Visualize the data!!!
+```
+python csv_as_enclosure_json.py -h
+python csv_as_enclosure_json.py --structure hib_lines.csv --weights hib_freqs.csv
+```
