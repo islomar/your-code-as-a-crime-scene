@@ -35,6 +35,7 @@ https://www.infoq.com/news/2015/03/code-as-a-crime-scene
   * Around significant events
 * Hotspots typically accont for around 4 to 6 percent of the total codebase.
 * Judge Hotspots with the Powe of Names
+* Code Maat no trackea cambios de nombres
 
 
 ##Creating an offender profile
@@ -107,8 +108,8 @@ python scripts/merge_comp_freqs.py hib_freqs.csv hib_lines.csv
 
 6. Visualize the data!!!
 ```
-python csv_as_enclosure_json.py -h
-python csv_as_enclosure_json.py --structure hib_lines.csv --weights hib_freqs.csv > hib_hotspot.json
+prompt> python csv_as_enclosure_json.py -h
+prompt> python csv_as_enclosure_json.py --structure hib_lines.csv --weights hib_freqs.csv > hib_hotspot.json
 ```
 Update the hibzoomable.html to reference that JSON file
 
@@ -122,7 +123,7 @@ Heuristincs to pass quick judgments on your hotspots: Naming
 * Manny Lehman: law of increasing complexity
 * The script **complexity_analysis.py** calculates logical indentation
 ```
-python scripts/complexity_analysis.py hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java
+prompt> python scripts/complexity_analysis.py hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java
 n,total,mean,sd,max
 3335,8072,2.42,1.63,14
 ```
@@ -148,5 +149,47 @@ python scripts/git_complexity_trend.py --start ccc087b --end 46c962e --file hibe
 
 
 ##Detect Architectural Decay
-TBD
+SOC: Sum Of coupling
+```
+prompt> maat -l maat_evo.log -c git -a soc
+entity,soc
+src/code_maat/app/app.clj,105
+test/code_maat/end_to_end/scenario_tests.clj,97
+src/code_maat/core.clj,93
+```
+app.clj changes the most with other modules
 
+Analyze temporal coupling.
+```
+prompt> maat -l maat_evo.log -c git -a coupling
+entity,coupled,degree,average-revs
+src/code_maat/parsers/git.clj,test/code_maat/parsers/git_test.clj,83,12
+src/code_maat/analysis/entities.clj,test/code_maat/analysis/entities_test.clj,76,7
+src/code_maat/analysis/authors.clj,test/code_maat/analysis/authors_test.clj,72,11
+src/code_maat/analysis/logical_coupling.clj,test/code_maat/analysis/logical_coupling_test.clj,66,20
+test/code_maat/analysis/authors_test.clj,test/code_maat/analysis/test_data.clj,66,8
+src/code_maat/app/app.clj,src/code_maat/core.clj,60,23
+src/code_maat/app/app.clj,test/code_maat/end_to_end/scenario_tests.clj,57,23
+```
+* The degree specifies the percent of shared commits
+* **average-revs**: weighted number of total revisions for the involved modules; we can filter out modules with too few revisions to avoid bias.
+* Temporal coupling often indicates architectural decay.
+* Lehman law: "Law of continuing change"
+* Identify architecurally significant modules:
+```
+prompt> git clone https://github.com/SirCmpwn/Craft.Net.git
+prompt> git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --before=2014-08-08 > craft_evo_complete.log
+prompt> maat -l craft_evo_complete.log -c git -a soc
+entity,soc
+Craft.Net.Server/Craft.Net.Server.csproj,685
+Craft.Net.Server/MinecraftServer.cs,635
+Craft.Net.Data/Craft.Net.Data.csproj,521
+Craft.Net.Server/MinecraftClient.cs,464
+
+
+prompt> git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --before=2013-01-01 > craft_evo_130101.log
+prompt> maat -l craft_evo_130101.log -c git -a coupling > craft_coupling_130101.csv
+
+prompt> git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --after=2013-01-01 --before=2014-08-08> craft_evo_140808.log
+prompt> maat -l craft_evo_130101.log -c git -a coupling > craft_evo_140808.csv
+```
