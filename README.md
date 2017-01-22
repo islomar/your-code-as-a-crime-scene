@@ -29,6 +29,12 @@ https://www.infoq.com/news/2015/03/code-as-a-crime-scene
   * Around significant events
 * Design to isolate change
 * Stabilize by extracting cohesive design elements
+* When to analyze it:
+  * Between releases
+  * Over iterations
+  * Around significant events
+* Hotspots typically accont for around 4 to 6 percent of the total codebase.
+* Judge Hotspots with the Powe of Names
 
 
 ##Creating an offender profile
@@ -108,4 +114,21 @@ Update the hibzoomable.html to reference that JSON file
 
 
 ##Judge Hotspots with the Powe of Names
-TBD
+Heuristincs to pass quick judgments on your hotspots: Naming
+
+##Calculate Complexity trends from your code's shape
+* We'll use indentation as a proxy for complexity
+* https://en.wikipedia.org/wiki/Brainfuck
+* Manny Lehman: law of increasing complexity
+* The script **complexity_analysis.py** calculates logical indentation
+```
+python scripts/complexity_analysis.py hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java
+n,total,mean,sd,max
+3335,8072,2.42,1.63,14
+```
+  * The total column is the accumulated complexity
+* Focus on a range of revisions
+```
+python scripts/git_complexity_trend.py --start ccc087b --end 46c962e --file hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java
+```
+* [Total complexity trend graph](https://docs.google.com/spreadsheets/d/1AgK6iz9_wkOuILe6iEJ6ajj6ouMNHx5mIoRShV-jq90/edit#gid=339668373)
