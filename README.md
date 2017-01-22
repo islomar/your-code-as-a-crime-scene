@@ -132,3 +132,21 @@ n,total,mean,sd,max
 python scripts/git_complexity_trend.py --start ccc087b --end 46c962e --file hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java
 ```
 * [Total complexity trend graph](https://docs.google.com/spreadsheets/d/1AgK6iz9_wkOuILe6iEJ6ajj6ouMNHx5mIoRShV-jq90/edit#gid=339668373)
+
+
+##Treat your code as code as cooperative witness
+* **Temporal coupling**: when you often commit some modules/classes at the same time.
+  * Changes to one of them means changes in the other. They're entagled.
+* A false memory sounds like a paradox.
+* Our human memory is a constructive process.
+* Temporal coupling == Change coupling == Logical coupling
+* Intentional coupling (explicit dependency) vs Incidental coupling (temporal only)
+* Reasons behind the temporal coupling:
+  * Copy-paste
+  * Inadequate encapsulation
+  * Producer-consumer
+
+
+##Detect Architectural Decay
+TBD
+
