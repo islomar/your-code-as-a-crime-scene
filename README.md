@@ -5,13 +5,14 @@ Author: Adam Tornhill
 https://pragprog.com/book/atcrime/code-as-acrime-scene
 
 
-##Interesting links
+## Interesting links
 [Book forum](https://forums.pragprog.com/forums/367)
 [GOTO 2015: Talk from Adam Tornhill](https://www.youtube.com/watch?v=TfZmuS01CN)
 [BilboStack 2016: Talk from Vicenç García-Altés](https://vimeo.com/154470784)
 https://www.infoq.com/news/2015/03/code-as-a-crime-scene
 
-##Tools
+## Tools
+* https://github.com/smontanari/code-forensics
 * http://www.adamtornhill.com/code/crimescenetools.htm
   * Executable Code Maat
   * Python scripts
@@ -20,7 +21,7 @@ https://www.infoq.com/news/2015/03/code-as-a-crime-scene
 * Evolution of Code Maat: https://codescene.io/projects
 
 
-##Notes
+## Notes
 * The number of lines of code is not the best metric for complexity... but the others are not much better (at this that one is simple and language-agnostic).
 * The number of commits depends on the style of each developer (baby steps or not).
 * Choose a timespan for your analyses, not the project's total lifetime: it might obscure important recent trends and flag hotspots that no longer exist.
@@ -38,7 +39,7 @@ https://www.infoq.com/news/2015/03/code-as-a-crime-scene
 * Code Maat no trackea cambios de nombres
 
 
-##Creating an offender profile
+## Creating an offender profile
 1. Move to 2013 in the Code Maat repository:
 ```
 git checkout `git rev-list -n 1 --before="2013-11-01" master`
@@ -114,10 +115,10 @@ prompt> python csv_as_enclosure_json.py --structure hib_lines.csv --weights hib_
 Update the hibzoomable.html to reference that JSON file
 
 
-##Judge Hotspots with the Powe of Names
+## Judge Hotspots with the Powe of Names
 Heuristincs to pass quick judgments on your hotspots: Naming
 
-##Calculate Complexity trends from your code's shape
+## Calculate Complexity trends from your code's shape
 * We'll use indentation as a proxy for complexity
 * https://en.wikipedia.org/wiki/Brainfuck
 * Manny Lehman: law of increasing complexity
@@ -135,7 +136,7 @@ python scripts/git_complexity_trend.py --start ccc087b --end 46c962e --file hibe
 * [Total complexity trend graph](https://docs.google.com/spreadsheets/d/1AgK6iz9_wkOuILe6iEJ6ajj6ouMNHx5mIoRShV-jq90/edit#gid=339668373)
 
 
-##Treat your code as code as cooperative witness
+## Treat your code as code as cooperative witness
 * **Temporal coupling**: when you often commit some modules/classes at the same time.
   * Changes to one of them means changes in the other. They're entagled.
 * A false memory sounds like a paradox.
@@ -148,7 +149,7 @@ python scripts/git_complexity_trend.py --start ccc087b --end 46c962e --file hibe
   * Producer-consumer
 
 
-##Detect Architectural Decay
+## Detect Architectural Decay
 SOC: Sum Of coupling
 ```
 prompt> maat -l maat_evo.log -c git -a soc
