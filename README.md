@@ -6,10 +6,10 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 
 
 ## Interesting links
-[Book forum](https://forums.pragprog.com/forums/367)
-[GOTO 2015: Talk from Adam Tornhill](https://www.youtube.com/watch?v=TfZmuS01CN)
-[BilboStack 2016: Talk from Vicenç García-Altés](https://vimeo.com/154470784)
-https://www.infoq.com/news/2015/03/code-as-a-crime-scene
+* [Book forum](https://forums.pragprog.com/forums/367)
+* [GOTO 2015: Talk from Adam Tornhill](https://www.youtube.com/watch?v=TfZmuS01CN)
+* [BilboStack 2016: Talk from Vicenç García-Altés](https://vimeo.com/154470784)
+* https://www.infoq.com/news/2015/03/code-as-a-crime-scene
 
 ## Tools
 * https://github.com/smontanari/code-forensics
