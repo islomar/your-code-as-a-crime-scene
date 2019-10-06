@@ -7,7 +7,7 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 
 ## Interesting links
 * [Book forum](https://forums.pragprog.com/forums/367)
-* [GOTO 2015: Talk from Adam Tornhill](https://www.youtube.com/watch?v=TfZmuS01CN)
+* [GOTO 2016: Talk from Adam Tornhill](https://www.youtube.com/watch?v=7FApEq8wum4)
 * [BilboStack 2016: Talk from Vicenç García-Altés](https://vimeo.com/154470784)
 * https://www.infoq.com/news/2015/03/code-as-a-crime-scene
 
