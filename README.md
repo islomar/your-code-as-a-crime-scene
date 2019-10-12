@@ -1,7 +1,7 @@
 # Your code as a crime scene
 Practice stuff from the book "Your code as a crime scene"
 
-Author: Adam Tornhill
+Author: Adam Tornhill, 2015
 https://pragprog.com/book/atcrime/code-as-acrime-scene
 
 
@@ -95,6 +95,7 @@ Heuristincs to pass quick judgments on your hotspots: Naming
 * We'll use indentation as a proxy for complexity (based by research)
 * https://en.wikipedia.org/wiki/Brainfuck
 * Manny Lehman: law of increasing complexity
+* A high standard deviation points to many complex blocks of conditional logic
 * The script **complexity_analysis.py** calculates logical indentation (4 spaces or one tab = 1 logical indentation)
 ```
 prompt> python scripts/complexity_analysis.py hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java
@@ -102,6 +103,7 @@ n,total,mean,sd,max
 3335,8072,2.42,1.63,14
 ```
   * The total column is the accumulated complexity
+  * A lot of indenting probably means nested conditions
 * Focus on a range of revisions
 ```
 python scripts/git_complexity_trend.py --start ccc087b --end 46c962e --file hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java
