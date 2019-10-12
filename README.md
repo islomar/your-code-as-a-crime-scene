@@ -37,6 +37,10 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 * Align you Architecture and your Organization.
 * Fractal figures. Too many developers touching a piece: too many responsibilities. Identify main developers in a component/file. Look who has done most contributions.
 * The more developers, the less quality.
+* "We need to understand both how the system came to be and how the people working on it interact with each other"
+* Blending of forensic pyschology and software evolution.
+* Software develoment is a learning activity.
+* We read more code than we write. Understanding the existing product is the dominant maintenance activity. Our primary task as programmers isn't to write code, but to understand it.
 * Identify abandoned subsystems: parts of code mostly written by people who are not in the organization anymore.
 * Choose a timespan for your analyses, not the project's total lifetime: it might obscure important recent trends and flag hotspots that no longer exist.
   * Between releases
