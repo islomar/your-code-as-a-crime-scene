@@ -57,8 +57,8 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
   * Over iterations
   * Around significant events
 * Hotspots typically accont for around 4 to 6 percent of the total codebase.
-* Judge Hotspots with the Powe of Names
-* Code Maat no trackea cambios de nombres
+* Judge Hotspots with the Power of Names
+
 
 ## Ideas to do
 * Identify most contributors (people and team) for a specific repository, component, file.
@@ -69,18 +69,17 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 * `scripts/run-code-maat.sh`
 
 ## Analyze Hotspots in Large-Scale Systems
-`analyze-hibernate.sh`
-
-5. Launch the Hotspot visualizations
-* Download the samples file of the book from its website
-* Go to `samples/hibernate/`
-* Run `python -m SimpleHTTPServer 8888`
-* Go to http://localhost:8888/hibzoomable.html
+* `analyze-hibernate.sh`
+* Launch the Hotspot visualizations
+  * The D3.js visualizations used are based on the [>oomable Circle Packing algorithm](https://observablehq.com/@d3/zoomable-circle-packing)
   * A circle represents a module
   * Circle packing: the more complex a module (number of lines), the larger the circle
-  * The more effor spent on a module, the more intense its color
-
-6. Visualize the data!!!
+  * The more effort spent on a module (number of revisions), the more intense its color
+  * A cluster shows how changes to one hotspot are intimately tied to changes in other areas.
+  * Multipple hotspots that change together are signs of unstanble code.
+* There is a trong correlation between the stability of the code and its quality: stabilize by extracting cohesive design elements.
+  - The more of your code you can protect from changes, the better.
+* Visualize the data!!!
 ```
 prompt> python csv_as_enclosure_json.py -h
 prompt> python csv_as_enclosure_json.py --structure hib_lines.csv --weights hib_freqs.csv > hib_hotspot.json
@@ -167,3 +166,7 @@ prompt> maat -l craft_evo_130101.log -c git -a coupling > craft_coupling_130101.
 prompt> git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --after=2013-01-01 --before=2014-08-08> craft_evo_140808.log
 prompt> maat -l craft_evo_130101.log -c git -a coupling > craft_evo_140808.csv
 ```
+
+## Limitations
+* Code Maat does not track name changes
+* People moving between teams
