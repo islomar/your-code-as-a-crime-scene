@@ -7,9 +7,14 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 
 ## Interesting links
 * [Book forum](https://forums.pragprog.com/forums/367)
-* [GOTO 2016: Talk from Adam Tornhill](https://www.youtube.com/watch?v=7FApEq8wum4)
+* Adam Tornhill
+  - https://codescene.io/
+  - [GOTO 2016: Talk from Adam Tornhill](https://www.youtube.com/watch?v=7FApEq8wum4)
+  - http://adamtornhill.com/articles/aspnetclones/killtheclones.html
+  - http://adamtornhill.com/articles/socialside/socialsideofcode.htm
 * [BilboStack 2016: Talk from Vicenç García-Altés](https://vimeo.com/154470784)
 * https://www.infoq.com/news/2015/03/code-as-a-crime-scene
+
 
 ## Tools
 * https://github.com/smontanari/code-forensics
@@ -22,9 +27,17 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 
 
 ## Notes
-* The number of lines of code is not the best metric for complexity... but the others are not much better (at this that one is simple and language-agnostic).
+* The number of lines of code is not the best metric for complexity... but the others are not much better (at this that one is simple and language-agnostic). Cyclomatic complexity does not have the whole context.
 * The number of commits depends on the style of each developer (baby steps or not).
 * Code doesn't lie (vs "Everybody lies" from House)
+* Temporal coupling: measure of evolution of code. The other metrics are static, here we introduce another dimension: TIME.
+  - Temporal coupling is a great to detect clones, copy-paste.
+* Dependencies between code = dependencies between people. Conway's law.
+  - Social networks in code
+* Align you Architecture and your Organization.
+* Fractal figures. Too many developers touching a piece: too many responsibilities. Identify main developers in a component/file. Look who has done most contributions.
+* The more developers, the less quality.
+* Identify abandoned subsystems: parts of code mostly written by people who are not in the organization anymore.
 * Choose a timespan for your analyses, not the project's total lifetime: it might obscure important recent trends and flag hotspots that no longer exist.
   * Between releases
   * Over iterations
@@ -39,6 +52,8 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 * Judge Hotspots with the Powe of Names
 * Code Maat no trackea cambios de nombres
 
+## Ideas to do
+* Identify most contributors (people and team) for a specific repository, component, file.
 
 ## Creating an offender profile
 1. Move to 2013 in the Code Maat repository:
@@ -67,7 +82,7 @@ This way, we identify the parts of the code with most developer activity.
 
 6. Counting lines with cloc (complexity):
 http://cloc.sourceforge.net/
-```
+```s 
 cloc ./ --by-file --csv --quiet
 ```
 
