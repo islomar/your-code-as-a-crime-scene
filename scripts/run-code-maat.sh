@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # For getting into the container and taking a look
 docker run -v $PWD:/data -it --entrypoint /bin/bash code-maat-app

@@ -45,10 +45,11 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 * We read more code than we write. Understanding the existing product is the dominant maintenance activity. Our primary task as programmers isn't to write code, but to understand it.
 * Identify abandoned subsystems: parts of code mostly written by people who are not in the organization anymore.
 * It's important to verify your intuitive ideas with supporting data.
+* Hotspots make good predictors of defects. Defects tend to cluster in a few problematic modules.
 * Choose a timespan for your analyses, not the project's total lifetime: it might obscure important recent trends and flag hotspots that no longer exist.
   * Between releases
   * Over iterations
-  * Around significant events
+  * Around significant events: e.g. teams reorganization.
 * Design to isolate change
 * Stabilize by extracting cohesive design elements
 * When to analyze it:
@@ -63,51 +64,12 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 * Identify most contributors (people and team) for a specific repository, component, file.
 
 ## Creating an offender profile
+* `scripts/create-offender-profile.sh`
+* `scripts/install-code-maat.sh`
+* `scripts/run-code-maat.sh`
 
-4. Get a first summary analysis
-`maat -l maat_evo.log -c git -a summary`
-* The option -a is the analysis we want
-* With -c, we specify the VCS used
-
-5. Analyze change frequencies:
-```
-maat -l maat_evo.log -c git -a revisions
-```
-This way, we identify the parts of the code with most developer activity.
-
-6. Counting lines with cloc (complexity):
-http://cloc.sourceforge.net/
-```s 
-cloc ./ --by-file --csv --quiet
-```
-
-7. Merge complexity and effort:
-```
-maat -l maat_evo.log -c git -a revisions > maat_freqs.csv
-cloc ./ --by-file --csv --quiet --report-file=maat_lines.csv
-python scripts/merge_comp_freqs.py maat_freqs.csv maat_lines.csv
- ```
-
-##Analyze Hotspots in Large-Scale Systems
-git clone https://github.com/hibernate/hibernate-orm.git
-
-1. Move to 2013 in the Code Maat repository:
-```
-git checkout `git rev-list -n 1 --before="2013-09-05" master`
-```
-
-3. Generate a log
-```
-git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --before=2013-19-05 --after=2012-01-01 > hib_evo.log
-```
-`maat -l hib_evo.log -c git -a summary`
-
-4. Merge complexity and effort:
-```
-cloc ./ --by-file --csv --quiet --report-file=hib_lines.csv
-maat -l hib_evo.log -c git -a revisions > hib_freqs.csv
-python scripts/merge_comp_freqs.py hib_freqs.csv hib_lines.csv
-```
+## Analyze Hotspots in Large-Scale Systems
+`analyze-hibernate.sh`
 
 5. Launch the Hotspot visualizations
 * Download the samples file of the book from its website

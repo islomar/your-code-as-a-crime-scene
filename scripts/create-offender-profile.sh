@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 
 BASE_DIR=$1
 
@@ -25,6 +25,3 @@ git log --numstat
 # Generate a more compact version
 echo "Generate a more compact version: [commit_hash_id] [author] [date] [commit_message]"
 git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --before=2013-11-01 > maat_evo.log
-
-# Get a first summary analysis
-maat -l maat_evo.log -c git -a summary
