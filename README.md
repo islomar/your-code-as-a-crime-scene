@@ -23,6 +23,7 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
   * Python scripts
   * Sample files
 * https://github.com/adamtornhill/code-maat
+* https://wettel.github.io/codecity.html
 * Evolution of Code Maat: https://codescene.io/projects
 
 
