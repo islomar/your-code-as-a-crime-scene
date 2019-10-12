@@ -8,7 +8,7 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 ## Interesting links
 * [Book forum](https://forums.pragprog.com/forums/367)
 * Adam Tornhill
-  - https://codescene.io/
+  - https://codescene.io/ (Tools as a Service)
   - [GOTO 2016: Talk from Adam Tornhill](https://www.youtube.com/watch?v=7FApEq8wum4)
   - http://adamtornhill.com/articles/aspnetclones/killtheclones.html
   - http://adamtornhill.com/articles/socialside/socialsideofcode.htm
