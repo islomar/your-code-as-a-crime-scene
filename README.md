@@ -24,6 +24,7 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 ## Notes
 * The number of lines of code is not the best metric for complexity... but the others are not much better (at this that one is simple and language-agnostic).
 * The number of commits depends on the style of each developer (baby steps or not).
+* Code doesn't lie (vs "Everybody lies" from House)
 * Choose a timespan for your analyses, not the project's total lifetime: it might obscure important recent trends and flag hotspots that no longer exist.
   * Between releases
   * Over iterations
