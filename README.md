@@ -44,6 +44,7 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 * Software develoment is a learning activity.
 * We read more code than we write. Understanding the existing product is the dominant maintenance activity. Our primary task as programmers isn't to write code, but to understand it.
 * Identify abandoned subsystems: parts of code mostly written by people who are not in the organization anymore.
+* It's important to verify your intuitive ideas with supporting data.
 * Choose a timespan for your analyses, not the project's total lifetime: it might obscure important recent trends and flag hotspots that no longer exist.
   * Between releases
   * Over iterations
@@ -62,18 +63,6 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 * Identify most contributors (people and team) for a specific repository, component, file.
 
 ## Creating an offender profile
-1. Move to 2013 in the Code Maat repository:
-```
-git checkout `git rev-list -n 1 --before="2013-11-01" master`
-```
-
-2. Get the detailed log:
-`git log --numstat`
-
-3. Generate a more compact version
-```
-git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --before=2013-11-01 > maat_evo.log
-```
 
 4. Get a first summary analysis
 `maat -l maat_evo.log -c git -a summary`
