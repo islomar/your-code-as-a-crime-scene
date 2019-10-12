@@ -90,11 +90,12 @@ Update the hibzoomable.html to reference that JSON file
 ## Judge Hotspots with the Powe of Names
 Heuristincs to pass quick judgments on your hotspots: Naming
 
+
 ## Calculate Complexity trends from your code's shape
-* We'll use indentation as a proxy for complexity
+* We'll use indentation as a proxy for complexity (based by research)
 * https://en.wikipedia.org/wiki/Brainfuck
 * Manny Lehman: law of increasing complexity
-* The script **complexity_analysis.py** calculates logical indentation
+* The script **complexity_analysis.py** calculates logical indentation (4 spaces or one tab = 1 logical indentation)
 ```
 prompt> python scripts/complexity_analysis.py hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java
 n,total,mean,sd,max
