@@ -10,7 +10,7 @@ docker run -v $PWD:/data -it --entrypoint /bin/ls code-maat-app /data
 # Run maat with the generated log file existing in the current directory
 docker run -v $PWD:/data -it code-maat-app -l /data/maat_evo.log -c git -a summary
 
-# Analyz change frequencies (identify the parts of the code with most developer activity)
+# Analyze change frequencies (identify the parts of the code with most developer activity)
 docker run -v $PWD:/data -it code-maat-app -l /data/maat_evo.log -c git -a revisions
 
 # Counting lines with cloc

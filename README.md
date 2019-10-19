@@ -23,7 +23,9 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
   * Python scripts
   * Sample files
 * https://github.com/adamtornhill/code-maat
-* https://wettel.github.io/codecity.html
+* Code visualization
+  * https://wettel.github.io/codecity.html
+  * https://github.com/aserg-ufmg/JSCity (CodeCity for JavaScript)
 * Evolution of Code Maat: https://codescene.io/projects
   - [Applied to payments-api](https://codescene.io/projects/2962/jobs/16077/results)
 
@@ -125,50 +127,21 @@ python scripts/git_complexity_trend.py --start ccc087b --end 46c962e --file hibe
 
 
 ## Detect Architectural Decay
-SOC: Sum Of coupling
-```
-prompt> maat -l maat_evo.log -c git -a soc
-entity,soc
-src/code_maat/app/app.clj,105
-test/code_maat/end_to_end/scenario_tests.clj,97
-src/code_maat/core.clj,93
-```
-app.clj changes the most with other modules
-
-Analyze temporal coupling.
+* `temporal-coupling.sh`
+* [Craft.net temporal coupling](https://docs.google.com/spreadsheets/d/1Sq5zy2q2YkUSsnaWdZ4_owdck6MFYVQurALtD0kx5a8/edit#gid=726429799)
+* Analyze temporal coupling.
 ```
 prompt> maat -l maat_evo.log -c git -a coupling
 entity,coupled,degree,average-revs
-src/code_maat/parsers/git.clj,test/code_maat/parsers/git_test.clj,83,12
-src/code_maat/analysis/entities.clj,test/code_maat/analysis/entities_test.clj,76,7
-src/code_maat/analysis/authors.clj,test/code_maat/analysis/authors_test.clj,72,11
-src/code_maat/analysis/logical_coupling.clj,test/code_maat/analysis/logical_coupling_test.clj,66,20
-test/code_maat/analysis/authors_test.clj,test/code_maat/analysis/test_data.clj,66,8
-src/code_maat/app/app.clj,src/code_maat/core.clj,60,23
-src/code_maat/app/app.clj,test/code_maat/end_to_end/scenario_tests.clj,57,23
 ```
 * The degree specifies the percent of shared commits
 * **average-revs**: weighted number of total revisions for the involved modules; we can filter out modules with too few revisions to avoid bias.
 * Temporal coupling often indicates architectural decay.
 * Lehman law: "Law of continuing change"
-* Identify architecurally significant modules:
-```
-prompt> git clone https://github.com/SirCmpwn/Craft.Net.git
-prompt> git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --before=2014-08-08 > craft_evo_complete.log
-prompt> maat -l craft_evo_complete.log -c git -a soc
-entity,soc
-Craft.Net.Server/Craft.Net.Server.csproj,685
-Craft.Net.Server/MinecraftServer.cs,635
-Craft.Net.Data/Craft.Net.Data.csproj,521
-Craft.Net.Server/MinecraftClient.cs,464
-
-
-prompt> git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --before=2013-01-01 > craft_evo_130101.log
-prompt> maat -l craft_evo_130101.log -c git -a coupling > craft_coupling_130101.csv
-
-prompt> git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --after=2013-01-01 --before=2014-08-08> craft_evo_140808.log
-prompt> maat -l craft_evo_130101.log -c git -a coupling > craft_evo_140808.csv
-```
+* Evolution radar:
+  - A different approach to logical coupling
+  - https://dl.acm.org/citation.cfm?id=1137992
+* Use a storyboard to track evolution: e.g. for each iteration or n days/weeks.
 
 ## Limitations
 * Code Maat does not track name changes
