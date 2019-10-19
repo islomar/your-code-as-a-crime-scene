@@ -1,0 +1,4 @@
+src/code_maat/parsers => Parse
+src/code_maat/analysis => Analyze
+src/code_maat/output => Output
+src/code_maat/app => Application

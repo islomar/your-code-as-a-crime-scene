@@ -143,6 +143,34 @@ entity,coupled,degree,average-revs
   - https://dl.acm.org/citation.cfm?id=1137992
 * Use a storyboard to track evolution: e.g. for each iteration or n days/weeks.
 
+
+## Build a safety net for your architecture
+* Create `maat_src_test_boundaries.txt` with source vs test package locations. Copy this transformation file inside the root folder of the code to evaluate, and run `temporal-coupling-with-boundaries.sh`:
+```
+entity,coupled,degree,average-revs
+Code,Test,80,65
+```
+* In 80% of the Code we modified, to touch Test as well.
+* Create more detailed test boundaries:
+```
+entity,coupled,degree,average-revs
+Code,End to end Test,42,50
+Analysis Test,Code,42,49
+Code,Parsers Test,41,49
+```
+* The end to end coupling might be too high, probably they should not depend so much on implementation details, take a look to it!
+* Create a safety net for your automated tests, defining a change ratio:
+`docker run -v $PWD:/data -it code-maat-app -l /data/maat_evo.log -c git -a revisions -g /data/maat_src_test_boundaries.txt`
+  - you would get the number of revisions for Code and Tests
+  - Takins several samples on several moments, you can track the trend and change ratio. If you change tests more than code, that's a very bad smell.
+
+
+## Use beauty as a guiding principle
+* Beauty is about consistency and avoiding surprises.
+* Create `maat_pipes_filter_boundaries.txt` and run `docker run -v $PWD:/data -it code-maat-app -l /data/maat_evo.log -c git -a couplinh -g /data/maat_pipes_filter_boundaries.txt`
+* Analyze layered architectures: `analyze_layered_architectures.sh`
+
+
 ## Limitations
 * Code Maat does not track name changes
 * People moving between teams
