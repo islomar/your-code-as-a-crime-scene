@@ -171,6 +171,34 @@ Code,Parsers Test,41,49
 * Analyze layered architectures: `analyze_layered_architectures.sh`
 
 
+## Norms, groups and false serial killers
+* **Process loss** is the theory that groups, just as machines, cannot operate at 100 percent efficiency.
+* **Pluralistic ignorance** happens in situations where everyone privately rejects a norm but thinks that everyone else in the group supports it.
+* **Groupthink** is a disastrous consequence of social biases where the group ends up suppresising all forms of internal dissent.
+* Generate a word cloud from the commits: `commits-word-cloud.sh`
+
+
+## Discover organizational metrics in your codebase
+* Diffusion of responsibility
+* Hotspots attract multiple authors
+* Studies suggest that quality decreases with the number of programmers.
+* Organizational metrics outperform tradiional measures, such as code complexity or code coverage. One of these super-metrics was the number of programmers who worked on each component.
+* All the examples here: `organizationa-metrics.sh`:
+  * Discover the modules that are shared between multiple programmers
+  * Calculate temporal coupling over a day
+  * Identify main developers
+  * Identify main developers by removed code
+  * Calculate individual contributions
+* We try to identify expensive communication paths.
+  1. Identify parallel work.
+  1. Compare against hotspots.
+  1. Identify temporal coupling.
+  1. Find the main developers.
+  1. Check organiztional distance.
+  1. Optimize for communciation!
+* Rearrange the teams according to communication needs.
+
+
 ## Limitations
 * Code Maat does not track name changes
 * People moving between teams
