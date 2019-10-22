@@ -199,6 +199,13 @@ Code,Parsers Test,41,49
 * Rearrange the teams according to communication needs.
 
 
+## Build a knowledge map of your system
+* Fundamental attribution error.
+* `build-knowledge-map.sh`
+* Fractal figures visualization for individual contributions.
+  - `git clone git@github.com:adamtornhill/FractalFigures.git`
+
+
 ## Limitations
 * Code Maat does not track name changes
 * People moving between teams
