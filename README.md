@@ -212,6 +212,14 @@ Code,Parsers Test,41,49
 * `code-churn.sh`
 
 
+## Towards the future
+* https://michaelfeathers.silvrback.com/using-repository-analysis-to-find-single-responsibility-violations
+* Try [Moose](https://moosetechnology.org/)
+  * Big help for parsing, visualizations, etc.
+  * Moose is a platform for software and data analysis. 
+  * It helps programmers craft custom analyses cheaply.
+
+
 ## Limitations
 * Code Maat does not track name changes
 * People moving between teams
