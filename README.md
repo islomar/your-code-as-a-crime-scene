@@ -204,6 +204,12 @@ Code,Parsers Test,41,49
 * `build-knowledge-map.sh`
 * Fractal figures visualization for individual contributions.
   - `git clone git@github.com:adamtornhill/FractalFigures.git`
+* Scala example
+
+
+## Dive deeper with code churn
+* Code churn is a measure that tells us the rate at which our code evolves.
+* `code-churn.sh`
 
 
 ## Limitations
