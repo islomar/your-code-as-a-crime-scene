@@ -18,6 +18,9 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
 
 ## Tools
 * https://github.com/smontanari/code-forensics
+  * https://hub.docker.com/r/jdevoo/code-forensic/
+  * https://github.com/dilgerma/code-forensics
+  * https://github.com/orlandothoeny/code-forensics-docker
 * http://www.adamtornhill.com/code/crimescenetools.htm
   * Executable Code Maat
   * Python scripts
