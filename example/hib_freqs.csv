@@ -1,0 +1,2189 @@
+entity,n-revs
+mix.exs,495
+CHANGELOG.md,398
+lib/phoenix/controller.ex,308
+mix.lock,294
+lib/phoenix/endpoint.ex,286
+lib/phoenix/router.ex,269
+README.md,247
+priv/static/phoenix.js,174
+installer/test/phx_new_test.exs,159
+lib/phoenix/channel.ex,145
+lib/phoenix/socket.ex,145
+installer/test/phx_new_umbrella_test.exs,142
+installer/templates/phx_single/mix.exs,129
+package.json,124
+installer/templates/phx_umbrella/apps/app_name_web/mix.exs,123
+installer/templates/phx_web/components/core_components.ex,121
+lib/phoenix/transports/websocket.ex,115
+installer/lib/phoenix_new.ex,113
+installer/mix.exs,109
+installer/lib/phx_new/generator.ex,109
+priv/templates/phx.gen.live/core_components.ex,105
+guides/contexts.md,99
+lib/phoenix/socket/transport.ex,96
+lib/phoenix/channel/server.ex,93
+lib/phoenix/test/conn_test.ex,89
+web/static/js/phoenix.js,87
+lib/phoenix/endpoint/supervisor.ex,87
+integration_test/mix.lock,87
+installer/lib/mix/tasks/phx.new.ex,86
+lib/phoenix/endpoint/adapter.ex,84
+lib/phoenix/channel/transport.ex,84
+lib/phoenix/router/helpers.ex,83
+lib/phoenix/view.ex,82
+assets/js/phoenix.js,81
+test/phoenix/integration/channel_test.exs,78
+lib/phoenix/template.ex,76
+lib/phoenix/token.ex,76
+assets/package-lock.json,75
+installer/test/phoenix_new_test.exs,70
+lib/phoenix/router/mapper.ex,70
+lib/phoenix/router/route.ex,70
+test/phoenix/router/helpers_test.exs,69
+integration_test/mix.exs,69
+lib/phoenix/code_reloader/server.ex,69
+package-lock.json,68
+test/mix/tasks/phx.gen.html_test.exs,68
+D_controllers.md,67
+lib/phoenix/test/channel_test.ex,67
+assets/package.json,67
+test/phoenix/channel_test.exs,67
+lib/mix/tasks/phx.gen.html.ex,66
+installer/templates/new/mix.exs,64
+installer/lib/phx_new/single.ex,64
+C_routing.md,64
+guides/deployment/heroku.md,63
+.travis.yml,63
+test/phoenix/router/routing_test.exs,63
+test/phoenix/endpoint/endpoint_test.exs,63
+lib/mix/phoenix.ex,62
+lib/phoenix/transports/long_poll.ex,62
+guides/deployment/releases.md,61
+test/phoenix/controller/controller_test.exs,61
+lib/mix/phoenix/schema.ex,60
+.github/workflows/ci.yml,60
+guides/ecto.md,59
+installer/templates/phx_single/config/config.exs,58
+lib/phoenix/code_reloader.ex,58
+lib/phoenix/presence.ex,56
+guides/controllers.md,56
+lib/phoenix.ex,54
+installer/templates/phx_umbrella/apps/app_name_web/config/config.exs,54
+lib/mix/tasks/phx.gen.context.ex,54
+G_channels.md,53
+lib/phoenix/config.ex,52
+installer/templates/phx_umbrella/apps/app_name/mix.exs,52
+installer/templates/phx_umbrella/apps/app_name_web/config/dev.exs,52
+lib/phoenix/pubsub/local.ex,52
+guides/routing.md,51
+installer/templates/phx_single/config/dev.exs,51
+test/mix/tasks/phx.gen.json_test.exs,51
+test/test_helper.exs,50
+lib/phoenix/pubsub/redis_server.ex,50
+guides/request_lifecycle.md,50
+test/phoenix/controller/render_test.exs,48
+test/phoenix/pubsub/pubsub_test.exs,48
+B_adding_pages.md,48
+test/phoenix/controller_test.exs,46
+lib/phoenix/digester.ex,46
+test/mix/tasks/phx.gen.auth_test.exs,45
+A_up_and_running.md,45
+lib/mix/tasks/phx.gen.json.ex,45
+lib/phoenix/verified_routes.ex,44
+lib/phoenix/transports/long_poller/server.ex,44
+test/phoenix/test/channel_test.exs,44
+lib/phoenix/router/scope.ex,44
+test/phoenix/test/conn_test.exs,43
+lib/phoenix/controller/pipeline.ex,42
+lib/mix/tasks/phx.gen.auth.ex,42
+lib/phoenix/logger.ex,42
+lib/mix/tasks/phoenix.gen.html.ex,42
+guides/plug.md,41
+test/phoenix/integration/endpoint_test.exs,41
+E_views.md,41
+lib/mix/tasks/phoenix.gen.model.ex,41
+lib/phoenix/endpoint/render_errors.ex,40
+guides/views.md,40
+test/phoenix/channel/channel_test.exs,39
+introduction/E_installation.md,39
+H_ecto-models.md,39
+lib/phoenix/transports/long_poller.ex,38
+template/mix.exs,38
+lib/phoenix/pubsub.ex,38
+lib/phoenix/socket/message.ex,38
+lib/mix/tasks/phx.gen.live.ex,37
+lib/phoenix/examples/controller.ex,37
+lib/phoenix/pubsub/pg2_server.ex,37
+test/phoenix/view_test.exs,36
+lib/mix/tasks/phx.gen.schema.ex,36
+installer/lib/phx_new/web.ex,35
+lib/phoenix/examples/router.ex,35
+lib/mix/tasks/phoenix.new.ex,35
+deployment/E_heroku.md,35
+guides/mix_tasks.md,35
+lib/phoenix/endpoint/cowboy_handler.ex,35
+installer/templates/phx_assets/app.js,35
+installer/templates/phx_single/config/prod.exs,34
+test/phoenix/code_reloader_test.exs,34
+installer/templates/phx_single/lib/app_name_web.ex,34
+installer/templates/phx_umbrella/apps/app_name_web/lib/app_name.ex,34
+test/mix/tasks/phoenix.gen.html_test.exs,34
+installer/templates/static/brunch/package.json,34
+test/phoenix/config_test.exs,34
+lib/phoenix/template/compiler.ex,34
+test/mix/tasks/phx.gen.live_test.exs,34
+test/phoenix/digester_test.exs,33
+test/phoenix/controller/flash_test.exs,33
+test/mix/tasks/phoenix.new_test.exs,33
+test/mix/tasks/phx.gen.context_test.exs,33
+guides/introduction/community.md,32
+guides/asset_management.md,32
+lib/phoenix/pubsub/pg2.ex,32
+guides/introduction/installation.md,32
+lib/mix/tasks/phoenix.gen.json.ex,31
+lib/phoenix/naming.ex,31
+test/phoenix/router/route_test.exs,31
+guides/directory_structure.md,31
+guides/deployment/deployment.md,31
+lib/phoenix/transports/long_poll_server.ex,31
+lib/mix/tasks/phx.gen.release.ex,30
+priv/templates/phx.gen.auth/settings_live.ex,30
+H_ecto_models.md,30
+test/phoenix/socket_test.exs,30
+lib/phoenix/router/adapter.ex,30
+lib/phoenix/router/router.ex,30
+test/mix/phoenix_test.exs,30
+test/mix/tasks/phx.new_test.exs,30
+lib/phoenix/router/path.ex,30
+RELEASE.md,29
+test/phoenix/integration/websocket_channels_test.exs,29
+installer/test/mix_helper.exs,29
+test/mix/tasks/phx.gen.schema_test.exs,29
+lib/phoenix/controller/connection.ex,29
+lib/phoenix/socket/handler.ex,29
+test/phoenix/integration/long_poll_test.exs,28
+priv/static/phoenix.min.js,28
+test/phoenix/router/resources_test.exs,28
+installer/templates/phx_umbrella/apps/app_name_web/config/prod.exs,28
+test/phoenix/router/pipeline_test.exs,28
+assets/test/socket_test.js,28
+priv/static/phoenix.cjs.js.map,28
+test/mix/tasks/phoenix/new_test.exs,28
+test/phoenix/router/scope_test.exs,27
+test/mix/tasks/phoenix.gen.model_test.exs,27
+test/phoenix/endpoint/render_errors_test.exs,27
+lib/phoenix/router/console_formatter.ex,27
+guides/testing/testing_controllers.md,27
+installer/templates/phx_web/endpoint.ex,27
+priv/static/js/phoenix.js,27
+lib/phoenix/endpoint/cowboy2_handler.ex,26
+priv/templates/phx.gen.auth/login_live.ex,26
+lib/phoenix/endpoint/cowboy_websocket.ex,26
+assets/js/phoenix/socket.js,26
+F_templates.md,26
+guides/testing/testing.md,26
+test/phoenix/verified_routes_test.exs,26
+lib/phoenix/html/form.ex,26
+guides/components.md,26
+installer/templates/static/brunch/brunch-config.js,25
+priv/templates/phx.gen.auth/auth.ex,25
+test/phoenix/pubsub/local_test.exs,25
+test/phoenix/endpoint/adapter_test.exs,25
+test/phoenix/router/console_formatter_test.exs,25
+priv/static/phoenix.cjs.js,25
+CONTRIBUTING.md,25
+test/mix/tasks/phoenix.gen.json_test.exs,24
+config/config.exs,24
+installer/templates/phx_web/templates/layout/app.html.eex,24
+docs/contexts.md,24
+guides/howto/custom_error_pages.md,24
+priv/templates/phx.gen.auth/registration_live.ex,24
+bonus_guides/D_mix_tasks.md,23
+priv/templates/phx.gen.json/controller_test.exs,23
+lib/phoenix/pubsub/redis.ex,23
+priv/static/phoenix.mjs.map,23
+lib/phoenix/endpoint/cowboy2_adapter.ex,23
+test/phoenix/template_test.exs,23
+X_mix-tasks.md,23
+priv/templates/phx.gen.auth/session_new.html.heex,23
+lib/phoenix/html.ex,23
+priv/static/phoenix.mjs,22
+installer/templates/phx_single/lib/app_name/application.ex,22
+lib/phoenix/supervisor.ex,22
+lib/phoenix/exceptions.ex,22
+installer/templates/new/web/web.ex,22
+priv/templates/phx.gen.auth/confirmation_live.ex,22
+lib/phoenix/template/eex_engine.ex,22
+lib/phoenix/endpoint/watcher.ex,22
+lib/mix/phoenix/context.ex,22
+lib/mix/tasks/phx.gen.cert.ex,21
+installer/templates/phx_assets/app.css,21
+priv/templates/phx.gen.auth/auth_test.exs,21
+guides/authentication/mix_phx_gen_auth.md,21
+installer/templates/new/config/dev.exs,21
+installer/templates/phx_umbrella/apps/app_name/lib/app_name/application.ex,21
+lib/mix/tasks/phx.routes.ex,21
+test/phoenix/naming_test.exs,21
+installer/templates/phx_umbrella/mix.exs,21
+test/phoenix/transports/long_poller_test.exs,21
+installer/lib/phx_new/umbrella.ex,21
+guides/real_time/channels.md,21
+lib/phoenix/html/engine.ex,21
+test/phoenix/integration/websocket_test.exs,21
+guides/introduction/up_and_running.md,20
+priv/template/lib/application_name.ex,20
+lib/mix/tasks/phx.digest.ex,20
+guides/deployment/gigalixir.md,20
+priv/templates/phx.gen.release/Dockerfile.eex,20
+test/phoenix/socket/transport_test.exs,20
+DD_Plug.md,20
+priv/templates/phx.gen.live/live_test.exs,20
+test/phoenix/template/compiler_test.exs,20
+installer/mix.lock,20
+guides/telemetry.md,20
+installer/templates/phx_single/config/runtime.exs,20
+lib/mix/tasks/phx.gen.presence.ex,20
+0_overview.md,20
+priv/template/config/dev.exs,20
+test/phoenix/integration/long_poll_channels_test.exs,20
+lib/phoenix/channel/channel.ex,20
+lib/mix/tasks/phoenix.gen.channel.ex,20
+lib/phoenix/endpoint/instrument.ex,20
+lib/mix/tasks/compile.phoenix.ex,19
+installer/test/phx_new_web_test.exs,19
+test/phoenix/html/form_test.exs,19
+lib/phoenix/router/socket.ex,19
+installer/templates/phx_static/phoenix.js,19
+docs/routing.md,19
+test/phoenix/presence_test.exs,19
+installer/templates/ecto/model_case.ex,19
+priv/templates/phx.gen.live/index.ex,19
+installer/templates/phx_web/router.ex,18
+lib/phoenix/controller/flash.ex,18
+.gitignore,18
+lib/mix/tasks/phx.gen.channel.ex,18
+test/fixtures/views.exs,18
+priv/template/mix.exs,18
+docs/views.md,18
+guides/channels.md,18
+installer/lib/phx_new/project.ex,17
+installer/templates/phx_web/components.ex,17
+assets/cs/phoenix.coffee,17
+installer/templates/phx_web/components/layouts/root.html.heex,17
+installer/templates/phx_umbrella/apps/app_name/config/config.exs,17
+deployment/I_exrm_releases.md,17
+priv/templates/phx.gen.html/controller_test.exs,17
+test/phoenix/router/named_routing_test.exs,17
+.github/workflows/assets.yml,17
+lib/phoenix/router/resource.ex,17
+installer/lib/mix/tasks/phx.new.ecto.ex,17
+web/test/channel_test.js,17
+lib/mix/tasks/phoenix.server.ex,17
+test/phoenix/router/forward_test.exs,17
+test/phoenix/token_test.exs,17
+installer/templates/phx_web/controllers/page_html/home.html.heex,16
+test/phoenix/controller/error_handling_test.exs,16
+priv/templates/phx.gen.auth/registration_new.html.heex,16
+installer/templates/phx_umbrella/apps/app_name_web/lib/app_name/application.ex,16
+priv/templates/phx.gen.auth/reset_password_live.ex,16
+installer/templates/phx_assets/tailwind.config.js,16
+brunch-config.js,16
+test/shared/pubsub_test.exs,16
+installer/templates/phx_web/templates/page/index.html.eex,16
+lib/mix/tasks/phoenix.digest.ex,16
+priv/templates/phx.gen.live/show.ex,16
+guides/testing/testing_channels.md,16
+priv/template/config/config.exs,16
+docs/channels.md,16
+installer/templates/phx_ecto/data_case.ex,16
+installer/templates/new/config/config.exs,16
+lib/phoenix/pubsub/adapter.ex,16
+installer/README.md,16
+priv/templates/phx.gen.auth/reset_password_edit.html.heex,16
+priv/templates/phx.gen.auth/schema.ex,16
+test/mix/tasks/phx.gen.auth/injector_test.exs,16
+lib/phoenix/topic/server.ex,16
+test/phoenix/transports/transport_test.exs,16
+priv/templates/phx.gen.auth/confirmation_live_test.exs,15
+installer/templates/phx_web/components/layouts.ex,15
+priv/templates/phx.gen.auth/settings_edit.html.heex,15
+guides/howto/using_ssl.md,15
+test/phoenix/endpoint/supervisor_test.exs,15
+docs/controllers.md,15
+lib/phoenix/socket/pool_supervisor.ex,15
+installer/templates/new/test/support/conn_case.ex,15
+lib/phoenix/controller/controller.ex,15
+K_deployment.md,15
+installer/templates/phx_umbrella/apps/app_name_web/README.md,15
+test/phoenix/controller/logger_test.exs,15
+lib/phoenix/html/tag.ex,15
+lib/phoenix/topic/topic.ex,14
+lib/mix/tasks/phx.gen.auth/injector.ex,14
+lib/phoenix/pubsub/redis_adapter.ex,14
+test/phoenix/controller/pipeline_test.exs,14
+installer/lib/phx_new/ecto.ex,14
+installer/templates/phx_single/README.md,14
+template/config/dev.exs,14
+priv/templates/phx.gen.html/index.html.heex,14
+template/config/config.exs,14
+installer/templates/new/priv/gettext/errors.pot,14
+guides/phoenix_mix_tasks.md,14
+lib/phoenix/plugs/router_logger.ex,14
+priv/template/config/prod.exs,14
+test/phoenix/logger_test.exs,14
+test/phoenix/controller/connection_test.exs,14
+test/phoenix/socket/socket_test.exs,14
+test/phoenix/router/path_test.exs,14
+test/phoenix/template/render_test.exs,14
+guides/deployment/fly.md,14
+test/mix/tasks/phoenix.gen.channel_test.exs,14
+assets/js/phoenix/longpoll.js,14
+installer/templates/phx_single/config/test.exs,14
+priv/templates/phx.gen.html/show.html.heex,14
+assets/test/channel_test.js,14
+lib/phoenix/pubsub/pg2_adapter.ex,14
+priv/templates/phx.gen.live/index.html.heex,14
+installer/templates/phx_assets/package.json,14
+installer/templates/phx_web/views/error_helpers.ex,14
+priv/templates/phx.gen.html/edit.html.heex,13
+installer/templates/phx_umbrella/config/dev.exs,13
+test/phoenix/router/scoped_routing_test.exs,13
+integration_test/config/config.exs,13
+priv/templates/phx.gen.schema/schema.ex,13
+lib/phoenix/endpoint/server.ex,13
+installer/templates/phx_live/templates/layout/root.html.leex,13
+priv/templates/phx.gen.auth/context_functions.ex,13
+priv/templates/phx.gen.auth/confirmation_edit.html.heex,13
+guides/data_modelling/cross_context_boundaries.md,13
+test/mix/tasks/phx.gen.channel_test.exs,13
+priv/src/static/phoenix.coffee,13
+lib/phoenix/project.ex,13
+installer/templates/static/brunch/socket.js,13
+docs/ecto.md,13
+test/phoenix/plugs/controller_logger_test.exs,13
+lib/mix/tasks/phoenix/new.ex,13
+bonus_guides/G_static_assets.md,13
+integration_test/test/code_generation/app_with_no_options_test.exs,13
+.formatter.exs,12
+priv/templates/phx.gen.auth/confirmation_new.html.heex,12
+priv/template/config/test.exs,12
+lib/phoenix/conn_test.ex,12
+priv/templates/phx.gen.auth/reset_password_new.html.heex,12
+installer/templates/phx_test/support/conn_case.ex,12
+template/config/test.exs,12
+lib/phoenix/transports/serializer.ex,12
+Earthfile,12
+test/phoenix/integration/websocket_client.exs,12
+installer/templates/new/config/prod.exs,12
+guides/testing/testing_contexts.md,12
+lib/mix/tasks/phx.digest.clean.ex,12
+priv/templates/phx.gen.html/controller.ex,12
+guides/docs/contexts.md,12
+lib/mix/tasks/phoenix.routes.ex,12
+installer/templates/new/priv/gettext/en/LC_MESSAGES/errors.po,12
+L_advanced_deployment.md,12
+lib/phoenix/transports/long_poll_serializer.ex,12
+priv/templates/html/controller_test.exs,12
+priv/templates/phx.gen.auth/confirmation_instructions_live.ex,12
+test/phoenix/integration/websocket_socket_test.exs,12
+priv/templates/phx.gen.auth/forgot_password_live.ex,12
+installer/templates/new/test/support/channel_case.ex,12
+guides/realtime/channels.md,12
+testing/E_models.md,12
+installer/templates/phx_assets/webpack.config.js,12
+test/phoenix/topic/topic_test.exs,12
+template/config/prod.exs,12
+guides/json_and_apis.md,11
+lib/phoenix/plugs/error_handler.ex,11
+guides/authn_authz/scopes.md,11
+lib/phoenix/router/resources_context.ex,11
+installer/templates/phx_umbrella/apps/app_name_web/config/test.exs,11
+priv/templates/phx.gen.schema/migration.exs,11
+installer/templates/phx_web/telemetry.ex,11
+installer/templates/phx_umbrella/config/config.exs,11
+lib/mix/tasks/phoenix.gen.resource.ex,11
+test/phoenix/template/template_test.exs,11
+test/phoenix/plugs/accepts_test.exs,11
+test/phoenix/router/nested_routing_test.exs,11
+installer/templates/static/brunch/app.js,11
+priv/templates/phx.gen.live/show.html.heex,11
+installer/lib/phx_new.ex,11
+test/phoenix/socket/message_test.exs,11
+test/phoenix/integration/adapter_test.exs,11
+priv/templates/phx.gen.auth/schema_token.ex,11
+priv/src/static/cs/phoenix.coffee,11
+installer/templates/phx_umbrella/config/prod.exs,11
+guides/docs/routing.md,11
+priv/templates/phx.gen.live/components.ex,11
+installer/templates/phx_umbrella/apps/app_name_web/gitignore,11
+priv/templates/phx.gen.html/new.html.heex,11
+lib/phoenix/controller/action.ex,11
+lib/phoenix/plugs/code_reloader.ex,11
+testing/J_channels.md,11
+lib/phoenix/router/live_reloader.ex,11
+bonus_guides/I_sending_email.md,11
+guides/docs/controllers.md,11
+test/phoenix/endpoint_test.exs,11
+priv/templates/phx.gen.auth/session_controller_test.exs,11
+priv/templates/phx.gen.context/test_cases.exs,11
+test/phoenix/html/tag_test.exs,10
+installer/templates/phx_umbrella/config/test.exs,10
+priv/templates/phx.gen.auth/login_live_test.exs,10
+testing/A_introduction.md,10
+guides/docs/channels.md,10
+introduction/A_overview.md,10
+installer/templates/phx_umbrella/apps/app_name_web/config/runtime.exs,10
+priv/templates/json/controller_test.exs,10
+priv/templates/phx.gen.live/live_helpers.ex,10
+Z_resources.md,10
+priv/templates/phx.gen.auth/registration_controller_test.exs,10
+test/phoenix/endpoint/instrument_test.exs,10
+priv/templates/phx.gen.auth/registration_live_test.exs,10
+ISSUE_TEMPLATE.md,10
+integration_test/test/code_generation/app_with_defaults_test.exs,10
+priv/static/phoenix.js.map,10
+priv/templates/phx.gen.auth/test_cases.exs,10
+priv/templates/phx.gen.presence/presence.ex,10
+installer/templates/phx_assets/phoenix.js,10
+priv/templates/phx.gen.json/controller.ex,10
+priv/templates/phx.gen.auth/routes.ex,10
+lib/phoenix/controller/logger.ex,10
+test/mix/tasks/phoenix/routes_test.exs,10
+priv/templates/phx.gen.auth/session_controller.ex,10
+lib/phoenix/endpoint/handler.ex,10
+lib/phoenix/pubsub/redis_conn.ex,10
+priv/templates/phx.gen.auth/forgot_password_live_test.exs,10
+docs/adding_pages.md,10
+priv/templates/phx.gen.live/form.ex,10
+lib/phoenix/param.ex,10
+lib/phoenix/plugs/controller_logger.ex,10
+installer/templates/phx_single/gitignore,10
+lib/mix/tasks/phoenix.ex,9
+test/support/websocket_client.exs,9
+assets/js/phoenix/ajax.js,9
+installer/templates/new/lib/application_name/endpoint.ex,9
+test/phoenix/integration/long_poll_socket_test.exs,9
+test/mix/tasks/phoenix.digest_test.exs,9
+docs/deployment/heroku.md,9
+installer/templates/phx_ecto/repo.ex,9
+priv/templates/phx.gen.html/edit.html.eex,9
+lib/mix/tasks/phoenix.gen.secret.ex,9
+priv/templates/phx.gen.html/new.html.eex,9
+guides/up_and_running.md,9
+guides/docs/testing/testing_controllers.md,9
+installer/templates/phx_web/components/layouts/app.html.heex,9
+lib/phoenix/transports/json_serializer.ex,9
+lib/phoenix/endpoint/cowboy_adapter.ex,9
+test/router_helper.exs,9
+guides/endpoint.md,9
+installer/templates/new/web/templates/page/index.html.eex,9
+priv/templates/resource/form.html.eex,9
+lib/phoenix/topic/supervisor.ex,9
+priv/templates/phx.gen.auth/session_confirm.html.heex,9
+priv/templates/phx.gen.auth/settings_controller.ex,9
+lib/mix/tasks/phx.gen.embedded.ex,9
+priv/templates/phoenix.gen.json/controller_test.exs,9
+installer/templates/phx_umbrella/apps/app_name_web/config/prod.secret.exs,9
+guides/adding_pages.md,9
+installer/templates/new/web/templates/layout/app.html.eex,9
+priv/templates/phx.gen.auth/confirmation_controller_test.exs,9
+installer/templates/phx_single/config/prod.secret.exs,9
+lib/phoenix/html/link.ex,8
+priv/templates/phx.gen.html/index.html.eex,8
+lib/phoenix/template/template.ex,8
+lib/mix/tasks/phx.gen.auth/hashing_library.ex,8
+priv/templates/phx.gen.auth/settings_live_test.exs,8
+test/phoenix/router/options_test.exs,8
+lib/mix/tasks/phx.server.ex,8
+lib/phoenix/transports/long_poll/server.ex,8
+priv/static/app.css,8
+priv/templates/phoenix.gen.model/model.ex,8
+test/mix/tasks/phx.gen.cert_test.exs,8
+guides/introduction/overview.md,8
+bonus_guides/H_file_uploads.md,8
+priv/templates/new/mix.exs,8
+priv/templates/phx.gen.auth/settings_controller_test.exs,8
+installer/templates/phx_web/templates/layout/root.html.heex,8
+priv/templates/phx.gen.auth/confirmation_controller.ex,8
+installer/templates/phx_single/formatter.exs,8
+installer/templates/phx_new/config/dev.exs,8
+priv/templates/phoenix.gen.model/migration.exs,8
+priv/templates/phx.gen.auth/context_fixtures_functions.ex,8
+installer/templates/new/README.md,8
+installer/templates/new/web/channels/user_socket.ex,8
+test/mix/tasks/phx.gen.presence_test.exs,8
+lib/phoenix/router/scope_context.ex,8
+template/lib/application_name/supervisor.ex,8
+docs/introduction/installation.md,8
+test/phoenix/html_test.exs,8
+installer/lib/mix/tasks/phx.new.web.ex,8
+guides/presence.md,8
+lib/phoenix/pubsub/redis_broadcaster.ex,8
+priv/templates/phx.gen.auth/reset_password_controller_test.exs,8
+test/phoenix/transports/long_poll_serializer_test.exs,8
+priv/templates/phx.gen.release/dockerignore.eex,8
+test/mix/tasks/phx.routes_test.exs,8
+priv/templates/phx.gen.auth/reset_password_live_test.exs,8
+assets/js/phoenix/constants.js,8
+template/priv/static/js/phoenix.js,8
+priv/templates/phx.gen.html/show.html.eex,8
+test/mix/tasks/phx.digest_test.exs,8
+test/phoenix/transports/json_serializer_test.exs,8
+integration_test/test/code_generation/app_with_mssql_adapter_test.exs,7
+lib/phoenix/plugs/parsers/json.ex,7
+lib/phoenix/config/app.ex,7
+test/phoenix/routing_test.exs,7
+priv/templates/phx.gen.live/form_component.ex,7
+priv/templates/phx.gen.live/index.html.leex,7
+docs/introduction/overview.md,7
+docs/testing/testing.md,7
+installer/templates/phx_assets/phoenix.css,7
+installer/templates/phx_umbrella/apps/app_name/formatter.exs,7
+guides/data_modelling/your_first_context.md,7
+bonus_guides/M_custom_errors.md,7
+lib/phoenix/router/options.ex,7
+priv/templates/phx.gen.auth/confirmation_instructions_live_test.exs,7
+priv/templates/model/model.ex,7
+docs/endpoint.md,7
+installer/templates/phx_assets/webpack/webpack.config.js,7
+guides/real_time/presence.md,7
+docs/plug.md,7
+integration_test/test/code_generation/umbrella_app_with_defaults_test.exs,7
+priv/templates/phoenix.gen.html/form.html.eex,7
+installer/templates/phx_test/support/channel_case.ex,7
+priv/template/web/router.ex,7
+assets/test/presence_test.js,7
+lib/phoenix/transports/v2/longpoll_serializer.ex,7
+test/phoenix/mime/mime_test.exs,7
+priv/templates/phx.gen.auth/reset_password_controller.ex,7
+lib/phoenix/adapters/cowboy.ex,7
+.github/dependabot.yml,7
+installer/templates/phx_web/controllers/page_controller.ex,7
+test/phoenix/endpoint/watcher_test.exs,7
+priv/templates/phx.gen.context/schema_access.ex,7
+lib/phoenix/transports/websocket_serializer.ex,7
+installer/lib/mix/tasks/phoenix.new.ex,7
+bonus_guides/EE_custom_primary_key.md,7
+docs/bonus_guides/mix_tasks.md,7
+lib/phoenix/socket/router.ex,7
+guides/testing/testing_schemas.md,7
+docs/bonus_guides/sending_email_with_smtp.md,7
+guides/docs/views.md,7
+bonus_guides/V_learning_elixir.md,7
+lib/phoenix/view/view.ex,7
+bonus_guides/X_seeding_data.md,7
+installer/templates/phx_assets/webpack/package.json,7
+priv/templates/phoenix.gen.html/controller_test.exs,7
+test/phoenix/html/link_test.exs,7
+test/phoenix/view/view_test.exs,7
+lib/mix/tasks/phoenix/routes.ex,7
+installer/templates/new/web/views/error_helpers.ex,7
+docs/up_and_running.md,7
+lib/phoenix/template/engine.ex,7
+test/mix/tasks/phx.gen.release_test.exs,7
+assets/webpack.config.js,7
+test/support/http_client.exs,6
+test/phoenix/router/resource_test.exs,6
+docs/deployment/deployment.md,6
+docs/ecto_models.md,6
+installer/templates/phx_umbrella/config/runtime.exs,6
+installer/templates/new/test/views/error_view_test.exs,6
+lib/mix/tasks/phoenix.gen.presence.ex,6
+lib/mix/tasks/phoenix.start.ex,6
+lib/phoenix/plugs/content_type_fetcher.ex,6
+test/phoenix/transports/websocket_serializer_test.exs,6
+guides/docs/phoenix_mix_tasks.md,6
+installer/templates/phx_new/mix.exs,6
+installer/templates/phx_test/live/page_live_test.exs,6
+lib/mix/tasks/phx.gen.socket.ex,6
+priv/templates/phx.gen.context/schema_access_scope.ex,6
+lib/mix/tasks/phx.gen.secret.ex,6
+test/mix/tasks/phx.gen.embedded_test.exs,6
+installer/templates/phx_static/app.css,6
+installer/templates/phx_static/default.css,6
+integration_test/test/code_generation/app_with_mysql_adapter_test.exs,6
+installer/templates/assets/brunch/package.json,6
+installer/templates/new/web/gettext.ex,6
+guides/data_modelling/contexts.md,6
+guides/introduction/learning.md,6
+priv/templates/phx.gen.json/fallback_controller.ex,6
+styling/Phoenix.html,6
+test/mix/mix_helper.exs,6
+priv/templates/phx.gen.live/show.html.leex,6
+guides/data_modelling/more_examples.md,6
+introduction/I_learning.md,6
+priv/templates/phoenix.gen.presence/presence.ex,6
+lib/mix/tasks/phoenix.digest.clean.ex,6
+test/phoenix/config/config_test.exs,6
+template/lib/application_name/config/prod.ex,6
+guides/authn_authz/mix_phx_gen_auth.md,6
+lib/phoenix/topic.ex,6
+lib/phoenix/router/cowboy_handler.ex,6
+lib/phoenix/view/helpers.ex,6
+lib/mix/tasks/phx.gen.notifier.ex,6
+priv/static/phoenix.esm.js,6
+installer/templates/phx_web/channels/user_socket.ex,6
+lib/phoenix/dispatcher/server.ex,6
+test/phoenix/router/adapter_test.exs,6
+priv/static/phoenix.esm.js.map,6
+priv/templates/channel/channel_test.exs,6
+lib/phoenix/plugs/accepts.ex,6
+priv/template/web/view.ex,6
+lib/phoenix/plugs/logger.ex,6
+mix-cowboy1.lock,6
+priv/templates/phoenix.gen.html/index.html.eex,6
+lib/phoenix/examples/views/profiles/nav/top.html.eex,6
+lib/phoenix/html/html.ex,6
+installer/templates/phx_assets/webpack/app.js,6
+lib/phoenix/examples/views/profiles/show.html.eex,6
+lib/phoenix/pubsub/redis_supervisor.ex,6
+installer/templates/new/web/views/error_view.ex,6
+priv/templates/phoenix.gen.json/controller.ex,6
+bonus_guides/S_phoenix_behind_proxy.md,6
+lib/phoenix/pubsub/gc.ex,6
+installer/templates/new/test/test_helper.exs,6
+priv/templates/json/controller.ex,6
+bonus_guides/E_using_mysql.md,6
+installer/templates/phx_umbrella/apps/app_name_web/test/test_helper.exs,5
+priv/templates/phx.gen.auth/registration_controller.ex,5
+priv/templates/phx.gen.embedded/embedded_schema.ex,5
+lib/phoenix/html/form_data.ex,5
+installer/templates/static/app.css,5
+lib/phoenix/topic/garbage_collector.ex,5
+priv/templates/html/form.html.eex,5
+test/phoenix/router/ssl_test.exs,5
+priv/templates/html/index.html.eex,5
+integration_test/README.md,5
+test/phoenix/param_test.exs,5
+guides/docs/introduction/overview.md,5
+test/mix/tasks/phoenix.gen.resource_test.exs,5
+installer/templates/phx_gettext/errors.pot,5
+guides/docs/ecto.md,5
+test/conn_helper.exs,5
+guides/realtime/presence.md,5
+priv/static/favicon.ico,5
+guides/docs/endpoint.md,5
+priv/templates/phx.gen.html/html.ex,5
+lib/phoenix/socket/socket.ex,5
+installer/templates/new/web/router.ex,5
+installer/templates/phx_assets/app.scss,5
+lib/phoenix/pubsub/local_supervisor.ex,5
+bonus_guides/J_sessions.md,5
+installer/templates/static/brunch/.gitignore,5
+installer/templates/phx_umbrella/apps/app_name/gitignore,5
+lib/phoenix/code_reloader/change_detector.ex,5
+assets/js/phoenix/channel.js,5
+lib/phoenix/pubsub/garbage_collector.ex,5
+installer/templates/phx_umbrella/config/extra_config.exs,5
+guides/introduction/packages_glossary.md,5
+docs/bonus_guides/seeding_data.md,5
+test/phoenix/token_text.exs,5
+priv/templates/phoenix.gen.html/edit.html.eex,5
+installer/templates/ecto/seeds.exs,5
+priv/templates/html/controller.ex,5
+priv/templates/phx.gen.auth/migration.ex,5
+priv/templates/phoenix.gen.html/new.html.eex,5
+template/lib/application_name.ex,5
+lib/phoenix/endpoint/cowboy2_websocket.ex,5
+lib/phoenix/router/stack.ex,5
+installer/templates/phx_umbrella/apps/app_name/lib/app_name.ex,5
+installer/templates/phx_live/live/page_live.ex,5
+lib/mix/tasks/phoenix/start.ex,5
+installer/templates/phx_umbrella/apps/app_name/config/prod.exs,5
+installer/templates/new/config/prod.secret.exs,5
+priv/templates/new/config/dev.exs,5
+installer/templates/phx_umbrella/config/prod.secret.exs,5
+priv/templates/phx.gen.context/access_no_schema.ex,5
+docs/bonus_guides/learning_elixir.md,5
+docs/templates.md,5
+lib/mix/tasks/phx.ex,5
+test/phoenix/channel/transport_test.exs,5
+lib/phoenix/mime.ex,5
+test/phoenix/socket/handler_test.exs,5
+test/phoenix/integration/http_client.exs,5
+guides/errors.md,5
+lib/phoenix/code_reloader/proxy.ex,5
+installer/templates/new/test/controllers/page_controller_test.exs,5
+installer/test/phx_new_ecto_test.exs,5
+lib/phoenix/html/safe.ex,5
+priv/templates/phx.gen.socket/socket.js,5
+test/phoenix/plugs/parsers/json_test.exs,5
+installer/templates/phx_umbrella/gitignore,5
+test/fixtures/templates/show.html.eex,5
+priv/template/lib/application_name/endpoint.ex,5
+priv/templates/phoenix.gen.html/show.html.eex,5
+template/web/views.ex,5
+lib/phoenix/dispatcher/client.ex,5
+bonus_guides/P_using_ssl.md,5
+lib/phoenix/router/errors.ex,5
+test/phoenix/router/stack_test.exs,5
+test/support/router_helper.exs,5
+test/phoenix/integration/channel_transports_test.exs,5
+installer/templates/phx_umbrella/apps/app_name/config/dev.exs,4
+test/phoenix/view/views.exs,4
+lib/mix/phoenix/scope.ex,4
+docs/bonus_guides/static_assets.md,4
+lib/phoenix/socket/helpers.ex,4
+guides/templates.md,4
+lib/phoenix/status/status.ex,4
+lib/phoenix/controller/error_controller.ex,4
+installer/templates/phx_assets/brunch/package.json,4
+lib/phoenix/router/route_helper.ex,4
+installer/templates/phx_ecto/seeds.exs,4
+priv/templates/phoenix.gen.json/changeset_view.ex,4
+test/phoenix/transports/long_poll_test.exs,4
+installer/templates/phx_umbrella/apps/app_name/config/test.exs,4
+priv/templates/phx.gen.json/changeset_json.ex,4
+docs/bonus_guides/phoenix_behind_proxy.md,4
+test/phoenix/plugs/content_type_fetcher_test.exs,4
+lib/phoenix/controller/exception.ex,4
+installer/templates/phx_new/config/prod.exs,4
+deployment/A_introduction.md,4
+installer/templates/phx_live/assets/topbar.js,4
+lib/phoenix/socket/serializers/v2_json_serializer.ex,4
+installer/templates/phx_web/views/layout_view.ex,4
+installer/templates/phx_web/controllers/error_html.ex,4
+priv/templates/phx.gen.auth/conn_case.exs,4
+installer/templates/phx_live/templates/layout/live.html.leex,4
+docs/testing/testing_controllers.md,4
+test/fixtures/digest/priv/static/app.js,4
+Y_help.md,4
+test/mix/tasks/phx_test.exs,4
+integration_test/test/code_generation/app_with_sqlite3_adapter.exs,4
+priv/templates/html/show.html.eex,4
+installer/templates/new/lib/application_name.ex,4
+installer/templates/phx_test/views/error_view_test.exs,4
+template/lib/application_name/config/test.ex,4
+guides/data_modelling/in_context_relationships.md,4
+guides/docs/testing/testing.md,4
+test/mix/tasks/phoenix.gen.presence_test.exs,4
+installer/templates/phx_new/lib/app_name/web/endpoint.ex,4
+test/phoenix/pubsub/pg2_test.exs,4
+priv/templates/phx.gen.auth/notifier.ex,4
+test/phoenix/controller/exception_test.exs,4
+priv/templates/phx.gen.json/view.ex,4
+priv/templates/phx.gen.html/form.html.eex,4
+priv/templates/phx.gen.socket/socket.ex,4
+test/phoenix/html/html_test.exs,4
+test/phoenix/router/render_errors_test.exs,4
+priv/templates/channel/channel.ex,4
+guides/howto/file_uploads.md,4
+docs/bonus_guides/file_uploads.md,4
+installer/templates/phx_static/home.css,4
+test/mix/tasks/phoenix.gen.secret_test.exs,4
+lib/phoenix/examples/views/users/show.html.eex,4
+priv/static/brunch/brunch-config.js,4
+lib/phoenix/router/websocket_mapper.ex,4
+lib/phoenix/examples/views/views.ex,4
+installer/templates/phx_new/lib/app_name/gettext.ex,4
+test/phoenix/socket/v2_json_serializer_test.exs,4
+test/phoenix/adapters/cowboy_test.exs,4
+installer/templates/new/test/views/layout_view_test.exs,4
+test/mix/tasks/phx.gen.socket_test.exs,4
+installer/templates/phx_static/app.js,4
+docs/bonus_guides/using_mysql.md,4
+lib/phoenix/html/controller.ex,4
+introduction.md,4
+installer/templates/phx_umbrella/apps/app_name/test/test_helper.exs,4
+lib/phoenix/plugs.ex,4
+customize.md,4
+template/lib/application_name/config/dev.ex,4
+priv/template/web/controllers/page_controller.ex,4
+lib/phoenix/examples/views/profiles/profiles.ex,4
+installer/templates/new/config/test.exs,4
+lib/phoenix/config/config.ex,4
+test/phoenix/status/status_test.exs,4
+guides/channels/channels.md,4
+integration_test/test/code_generation/app_with_scopes_test.exs,4
+priv/templates/new/lib/application_name/endpoint.ex,4
+lib/phoenix/channel/control_channel.ex,4
+priv/templates/phx.gen.channel/channel_test.exs,4
+installer/lib/mix/tasks/local.phx.ex,4
+installer/templates/phx_static/phoenix.css,4
+introduction/L_community.md,4
+lib/phoenix/router/context.ex,4
+assets/.babelrc,4
+guides/authentication/api_authentication.md,4
+assets/.eslintrc.js,4
+priv/templates/phoenix.gen.json/view.ex,4
+installer/templates/phx_umbrella/apps/app_name_web/lib/app_name_web.ex,4
+docs/bonus_guides/task_supervisor.md,4
+template/mix.lock,4
+priv/templates/phx.gen.html/schema.ex,4
+priv/templates/phoenix.gen.html/controller.ex,4
+installer/templates/static/phoenix.css,4
+guides/docs/deployment/heroku.md,4
+installer/templates/phx_umbrella/apps/app_name_web/test/support/conn_case.ex,4
+lib/phoenix/plugs/params_fetcher.ex,4
+LICENSE,4
+installer/templates/phx_test/controllers/page_controller_test.exs,4
+installer/templates/phx_new/test/support/channel_case.ex,4
+priv/template/web/templates/layout/application.html.eex,4
+priv/template/web/static/js/app.js,4
+priv/template/test/test_helper.exs,4
+docs/bonus_guides/using_ssl.md,4
+installer/templates/phx_single/AGENTS.md,4
+J_config.md,3
+test/mix/tasks/phx.digest.clean_test.exs,3
+priv/templates/phx.gen.html/view.ex,3
+styling/Phoenix_files/_hero.scss,3
+installer/templates/phx_new/lib/app_name/web/channels/user_socket.ex,3
+docs/bonus_guides/custom_primary_key.md,3
+installer/templates/phx_new/lib/app_name/web.ex,3
+lib/phoenix/examples/templates/layouts/application.html.eex,3
+installer/recreate_default_css.exs,3
+priv/templates/resource/index.html.eex,3
+installer/templates/phx_umbrella/apps/app_name_web/priv/gettext/errors.pot,3
+lib/phoenix/router/render_errors.ex,3
+test/fixtures/templates/layouts/application.html.eex,3
+priv/templates/phx.gen.auth/reset_password_html.ex,3
+priv/templates/phx.gen.auth/confirmation_html.ex,3
+lib/phoenix/controller/stack.ex,3
+installer/templates/new/test/views/page_view_test.exs,3
+guides/assets/images/hello-from-phoenix.png,3
+test/fixtures/templates/raw.html.eex,3
+guides/security.md,3
+installer/templates/phx_assets/heroicons/UPGRADE.md,3
+lib/phoenix/channel/websocket_transport.ex,3
+priv/templates/phx.gen.context/fixtures.ex,3
+installer/templates/phx_test/controllers/error_html_test.exs,3
+installer/templates/phx_new/test/support/conn_case.ex,3
+assets/test/serializer_test.js,3
+installer/templates/phx_gettext/en/LC_MESSAGES/errors.po,3
+integration_test/test.sh,3
+docs/testing/testing_channels.md,3
+lib/phoenix/socket/serializers/v1_json_serializer.ex,3
+guides/docs/deployment/deployment.md,3
+test/mix/tasks/phoenix.routes_test.exs,3
+installer/templates/phx_static/phoenix.js.map,3
+deployment.md,3
+installer/templates/phx_umbrella/apps/app_name/README.md,3
+test/phoenix/path_test.exs,3
+priv/static/app.js.map,3
+guides/howto/swapping_databases.md,3
+installer/templates/new/web/controllers/page_controller.ex,3
+priv/templates/phx.gen.live/form_component.html.heex,3
+installer/templates/phx_web/views/error_view.ex,3
+priv/views/index.html,3
+test/mix/tasks/phoenix.digest.clean_test.exs,3
+docs/bonus_guides/sending_email_with_mailgun.md,3
+installer/templates/phx_umbrella/apps/app_name_web/test/controllers/page_controller_test.exs,3
+installer/lib/phx_new/mailer.ex,3
+bonus_guides/F_config.md,3
+guides/cheatsheets/router.cheatmd,3
+installer/templates/phx_umbrella/apps/app_name_web/test/views/page_view_test.exs,3
+test/phoenix/view/templates/user_test/user/show.html.eex,3
+template/README.md,3
+priv/static/brunch/.gitignore,3
+test/phoenix/plugs/router_logger_test.exs,3
+installer/templates/phx_assets/tsconfig.json,3
+assets/js/phoenix/serializer.js,3
+lib/phoenix/websocket.ex,3
+installer/test/test_helper.exs,3
+.babelrc,3
+lib/phoenix/examples/templates/users/profile/show.html.eex,3
+installer/templates/phx_assets/brunch/brunch-config.js,3
+priv/templates/phx.gen.context/context.ex,3
+priv/template/README.md,3
+lib/phoenix/controller/errors.ex,3
+priv/templates/phx.gen.html/resource_form.html.heex,3
+lib/phoenix/examples/templates/pages/home.html.eex,3
+test/phoenix/controller/views/implicit_render_view.exs,3
+priv/templates/phx.gen.release/release.ex,3
+test/fixtures/templates/layout/app.html.eex,3
+docs/introduction/learning.md,3
+priv/templates/phx.gen.release/rel/migrate.sh.eex,3
+priv/templates/phx.gen.live/modal_component.ex,3
+priv/templates/phx.gen.html/form.html.heex,3
+template/lib/application_name/controllers/pages.ex,3
+installer/lib/phx_new/app.ex,3
+template/lib/application_name/config/config.ex,3
+test/mix/tasks/phoenix_test.exs,3
+installer/.gitignore,3
+guides/assets/images/welcome-to-phoenix.png,3
+test/phoenix/plugs/plugs_test.exs,3
+docs/introduction/community.md,3
+priv/templates/resource/model.ex,3
+guides/docs/introduction/installation.md,3
+test/support/endpoint_helper.exs,3
+installer/templates/new/priv/gettext/en/LC_MESSAGES/default.po,3
+installer/templates/phx_umbrella/apps/app_name_web/test/support/channel_case.ex,3
+installer/templates/phx_new/README.md,3
+lib/phoenix/examples/views/layouts/layouts.ex,3
+lib/phoenix/examples/templates.ex,3
+priv/template/web/views/page_view.ex,3
+styling/Phoenix_files/custom.css,3
+installer/templates/phx_umbrella/README.md,3
+deployment/I_exrm_releases,3
+logo.png,3
+priv/templates/phx.gen.auth/AGENTS.md,3
+test/fixtures/digest/priv/static/css/app.css,3
+installer/templates/phx_umbrella/formatter.exs,3
+lib/mix/tasks/new.ex,3
+test/phoenix/project_test.exs,3
+installer/templates/phx_gettext/gettext.ex,3
+installer/templates/phx_assets/daisyui.js,3
+installer/templates/phx_umbrella/apps/app_name_web/test/views/layout_view_test.exs,3
+docs/deployment/exrm_releases.md,3
+lib/phoenix/examples/templates/users/show.html.eex,3
+installer/templates/phx_test/views/layout_view_test.exs,3
+lib/phoenix/template/haml_engine.ex,3
+installer/templates/phx_new/test/views/page_view_test.exs,3
+guides/docs/plug.md,3
+I_presence.md,3
+installer/templates/phx_single/lib/app_name.ex,3
+priv/templates/phx.gen.auth/session_html.ex,3
+priv/templates/phoenix.gen.channel/channel_test.exs,3
+test/plug_helper.exs,3
+priv/templates/phoenix.gen.channel/channel.ex,3
+priv/templates/phx.gen.html/context.ex,3
+lib/phoenix/template/exs_engine.ex,3
+test/phoenix/view/templates/user_test/user/local_render.html.eex,3
+installer/templates/phx_web/controllers/error_json.ex,3
+installer/templates/static/bare/app.js,3
+installer/templates/phx_umbrella/apps/app_name/config/prod.secret.exs,3
+resources.md,3
+priv/templates/model/migration.exs,3
+assets/js/phoenix/presence.js,3
+release_docs.exs,3
+lib/phoenix/socket/serializer.ex,3
+test/phoenix_test.exs,3
+installer/templates/phx_umbrella/apps/app_name_web/test/views/error_view_test.exs,3
+priv/templates/phx.gen.channel/channel.ex,3
+lib/phoenix/examples/views/users/users.ex,3
+installer/templates/static/bare/.gitignore,3
+installer/templates/phx_new/lib/app_name/web/controllers/page_controller.ex,3
+assets/js/phoenix/index.js,3
+A_introduction.md,3
+installer/templates/phx_assets/webpack/socket.js,3
+web/test/socket_test.js,3
+bonus_guides/A_upgrading_phoenix.md,3
+installer/templates/phx_assets/main.css,3
+installer/templates/phx_umbrella/apps/app_name_web/priv/gettext/en/LC_MESSAGES/errors.po,3
+installer/templates/phx_umbrella/apps/app_name_web/formatter.exs,3
+lib/mix/tasks/phx.gen.ex,3
+installer/templates/phx_new/test/views/layout_view_test.exs,3
+priv/templates/new/web/templates/layout/application.html.eex,3
+test/phoenix/view/helpers_test.exs,3
+test/phoenix/integration/channel_client.exs,3
+lib/phoenix/router/route_alias.ex,3
+priv/template/web/views/layout_view.ex,3
+guides/docs/adding_pages.md,3
+priv/templates/phx.gen.auth/scope.ex,3
+testing/G_controllers.md,3
+lib/phoenix/transports/v2/websocket_serializer.ex,3
+assets/test/longpoll_test.js,3
+guides/docs/up_and_running.md,3
+installer/templates/new/lib/app_name.ex,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/message/show.html.eex,2
+installer/templates/phx_new/config/test.exs,2
+usage-rules/liveview.md,2
+lib/phoenix/socket/channel.ex,2
+router.md,2
+lib/phoenix/statuses.txt,2
+priv/template/web/views/error_view.ex,2
+guides/data_modelling/faq.md,2
+test/fixtures/templates/render_test/show.json.eex,2
+test/phoenix/router/errors_test.exs,2
+installer/templates/phx_new/config/config.exs,2
+installer/templates/static/bare/gitignore,2
+installer/templates/phx_umbrella/.gitignore,2
+docs/bonus_guides/custom_errors.md,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/message/index.html.eex,2
+priv/template/web/web.ex,2
+installer/templates/new/web/views/layout_view.ex,2
+test/phoenix/view/views/profile_view.exs,2
+lib/phoenix/endpoint/sync_code_reload_plug.ex,2
+guides/assets/images/hello-world-from-frank.png,2
+lib/phoenix/flash.ex,2
+installer/templates/static/robots.txt,2
+styling/Phoenix_files/_variables.scss,2
+guides/docs/presence.md,2
+priv/templates/phx.gen.auth/confirmation_view.ex,2
+lib/phoenix/dispatcher/request.ex,2
+lib/phoenix/channel/supervisor.ex,2
+test/fixtures/digest/cleaner/latest_not_most_recent_cache_manifest.json,2
+test/phoenix/view/views/views.exs,2
+priv/templates/resource/show.html.eex,2
+priv/templates/phx.gen.html/schema_access.ex,2
+installer/templates/phx_assets/heroicons.js,2
+installer/templates/assets/brunch/brunch-config.js,2
+test/fixtures/templates/layout/deprecated.html.eex,2
+installer/templates/phx_new/priv/gettext/en/LC_MESSAGES/errors.po,2
+installer/templates/phx_new/priv/static/robots.txt,2
+test/fixtures/templates/within.html.eex,2
+installer/templates/phx_test/live/home_live_test.exs,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/page/index.html.eex,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/gettext.ex,2
+installer/templates/phx_new/lib/app_name/web/views/error_helpers.ex,2
+lib/phoenix/plugs/parsers/fallback.ex,2
+priv/templates/phx.gen.json/changeset_view.ex,2
+web/test/presence_test.js,2
+assets/js/phoenix/utils.js,2
+assets/.gitignore,2
+lib/phoenix/utils.ex,2
+usage-rules/elixir.md,2
+.DS_Store,2
+lib/phoenix/pubsub/server.ex,2
+priv/templates/phx.gen.auth/settings_html.ex,2
+lib/mix/tasks/phx.gen.auth/migration.ex,2
+assets/js/phoenix/push.js,2
+priv/template/web/static/js/phoenix.js,2
+lib/phoenix/pubsub/{pg2_adapter.ex => pg2.ex},2
+priv/templates/phx.gen.release/rel/server.sh.eex,2
+test/fixtures/manifest_upgrade.json,2
+help.md,2
+template/lib/application_name/views/pages.ex,2
+installer/templates/phx_assets/hero_icons/UPGRADE.md,2
+installer/templates/phx_assets/bare/app.js,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/user/show.html.eex,2
+installer/templates/phx_new/lib/app_name/web/views/page_view.ex,2
+lib/phoenix/digest_cleaner.ex,2
+lib/phoenix/pubsub/{pg2_server.ex => pg2_adpater.ex},2
+template/web/router.ex,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/user/index.html.eex,2
+GG_testing_channels.md,2
+installer/templates/phx_new/lib/app_name/web/views/layout_view.ex,2
+installer/templates/phx_new/priv/gettext/errors.pot,2
+lib/phoenix/view/base.ex,2
+priv/templates/phx.gen.auth/session_view.ex,2
+integration_test/test/test_helper.exs,2
+testing/J_channels,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/layout/header.html.eex,2
+structure.md,2
+images/welcome-to-phoenix.png,2
+lib/phoenix/endpoint/error_handler.ex,2
+priv/templates/phx.gen.auth/context_fixtures.ex,2
+installer/templates/phx_web/controllers/page_html.ex,2
+test/fixtures/templates/user/with_render_existing.html.eex,2
+priv/templates/phx.gen.live/form.html.leex,2
+lib/phoenix/mimes.txt,2
+test/phoenix/view/base_test.exs,2
+CODE_OF_CONDUCT.md,2
+test/phoenix/view/templates/users/show.html.eex,2
+test/phoenix/controller/views/assign_view.exs,2
+test/phoenix/{channel => }/channel_test.exs,2
+installer/templates/phx_live/templates/layout/app.html.leex,2
+styling/Phoenix_files/custom.css.map,2
+installer/templates/usage-rules/phoenix.md,2
+priv/templates/phx.gen.notifier/notifier_test.exs,2
+priv/templates/resource/controller_test.exs,2
+priv/template/brunch-config.js,2
+priv/templates/resource/controller.ex,2
+styling/Phoenix_files/custom.scss,2
+installer/lib/mix/tasks/local_phx.ex,2
+priv/templates/phx.gen.auth/registration_html.ex,2
+installer/templates/new/web/templates/layout/application.html.eex,2
+I_static_assets.md,2
+test/phoenix/utils_test.exs,2
+installer/templates/phx_single/lib/app_name/web.ex,2
+priv/templates/phx.gen.release/rel/server.bat.eex,2
+installer/templates/phx_assets/webpack/babelrc,2
+installer/templates/phx_new/test/test_helper.exs,2
+lib/phoenix/instrument.ex,2
+lib/phoenix/plugs/session_fetcher.ex,2
+priv/templates/phx.gen.context/context_test.exs,2
+test/fixtures/manifest.json,2
+priv/templates/new/config/config.exs,2
+lib/phoenix/mime/mimes.txt,2
+installer/templates/new/priv/static/robots.txt,2
+integration_test/docker.sh,2
+priv/template/web/static/css/.gitkeep,2
+template/test/test_helper.exs,2
+priv/templates/phx.gen.live/form_component.html.leex,2
+styling/.gitkeep,2
+installer/templates/phx_single/test/test_helper.exs,2
+lib/phoenix/examples/.gitkeep,2
+priv/templates/phx.gen.auth/settings_view.ex,2
+test/fixtures/namespacing/config/config.exs,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/endpoint.ex,2
+lib/phoenix/digester/compressor.ex,2
+installer/templates/phx_umbrella/apps/app_name_web/test/support/model_case.ex,2
+test/phoenix/view/templates/user_test/user/file.txt.eex,2
+lib/mix/tasks/docs.watch.ex,2
+assets/test/socket_http_test.js,2
+template/lib/application_name/views/layouts.ex,2
+lib/phoenix/controller/page_controller.ex,2
+test/phoenix/socket/v1_json_serializer_test.exs,2
+usage-rules/ecto.md,2
+assets/js/phoenix/timer.js,2
+EE_endpoints.md,2
+priv/templates/phx.gen.auth/settings_edit.html.eex,2
+guides/howto/create-json-rest-api.md,2
+sockets.md,2
+priv/templates/phx.gen.release/rel/migrate.bat.eex,2
+test/phoenix/instrument_test.exs,2
+installer/templates/phx_new/lib/app_name.ex,2
+test/phoenix/view/templates/user_test/user/nav/top.html.eex,2
+template/lib/application_name/router.ex,2
+lib/phoenix/status.ex,2
+installer/templates/phx_assets/logo.svg,2
+lib/phoenix/mime/mime.ex,2
+installer/templates/phx_new/config/prod.secret.exs,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/message/new.html.eex,2
+priv/template/web/static/vendor/.gitkeep,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/layout/app.html.eex,2
+guides/docs/testing/testing_schemas.md,2
+installer/templates/phx_assets/topbar.js,2
+installer/templates/assets/brunch/app.js,2
+bonus_guides/I_sending_email_with_smtp.md,2
+installer/templates/assets/brunch/gitignore,2
+lib/phoenix/config/fallback.ex,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/message/form.html.eex,2
+assets/test/serializer.js,2
+guides/authn_authz/api_authentication.md,2
+webpack.config.js,2
+test/support/pubsub_setup.exs,2
+usage-rules/html.md,2
+lib/phoenix/pubsub/{pg2_adpater.ex => pg2_adapter.ex},2
+test/phoenix/controller/views/render_test_view.exs,2
+test/phoenix/controller/views/render_view.exs,2
+priv/templates/model/model_test.exs,2
+integration_test/test_helper.exs,2
+lib/phoenix/examples/views/layouts/application.html.eex,2
+priv/static/app.js,2
+guides/docs/testing/testing_channels.md,2
+priv/templates/phx.gen.live/modal.ex,2
+test/phoenix/controller/views.exs,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/user/form.html.eex,2
+installer/templates/new/priv/gettext/default.pot,2
+lib/phoenix/controller/message.ex,2
+priv/templates/phx.gen.auth/_menu.html.heex,2
+lib/phoenix/routes.ex,2
+web/static/test/presence_test.js,2
+installer/templates/phx_umbrella/apps/app_name/lib/repo.ex,2
+installer/templates/phx_new/lib/app_name/web/views/error_view.ex,2
+installer/templates/phx_new/test/views/error_view_test.exs,2
+database.md,2
+.github/ISSUE_TEMPLATE/config.yml,2
+lib/phoenix/request.ex,2
+test/fixtures/templates/safe.html.eex,2
+guides/howto/writing_a_channels_client.md,2
+test/phoenix/view/autocreator_test.exs,2
+priv/templates/phx.gen.json/json.ex,2
+installer/templates/phx_assets/brunch/gitignore,2
+test/fixtures/namespacing/mix.exs,2
+test/fixtures/templates/render/.gitkeep,2
+installer/lib/local_phoenix.ex,2
+installer/templates/phx_new/lib/app_name/web/templates/layout/app.html.eex,2
+priv/templates/phx.gen.context/access_no_schema_scope.ex,2
+eslint.config.mjs,2
+installer/templates/phx_assets/daisyui-theme.js,2
+priv/template/web/views/errors_view.ex,2
+installer/templates/ecto/repo.ex,2
+installer/templates/phx_test/views/page_view_test.exs,2
+test/fixtures/digest/cleaner/cache_manifest.json,2
+topics.md,2
+docs/testing/testing_models.md,2
+priv/templates/phx.gen.auth/reset_password_view.ex,2
+phoenix-landing-page/Phoenix_files/custom.css.map,2
+test/fixtures/templates/new.html.haml,2
+docs/phoenix_mix_tasks.ex,2
+installer/templates/phx_web/templates/page/index.html.heex,2
+integration_test/test/support/code_generator_case.ex,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/session/new.html.eex,2
+priv/static/app.css.map,2
+lib/phoenix/examples/views/Pages/show.html.eex,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/user/edit.html.eex,2
+installer/templates/assets/brunch/socket.js,2
+test/fixtures/templates/show.json.eex,2
+test/mix/tasks/phx.gen.notifier_test.exs,2
+priv/templates/resource/edit.html.eex,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/message/edit.html.eex,2
+test/phoenix/view/views/profiles.exs,2
+test/socket_test.exs,2
+priv/templates/new/web/web.ex,2
+installer/templates/phx_web/views/page_view.ex,2
+test/phoenix/digest_cleaner_test.exs,2
+SECURITY.md,2
+lib/phoenix/pubsub/{server.ex => pg2_server.ex},2
+test/fixtures/templates/user/banner.html.eex,2
+installer/templates/new/priv/gettext/en/LC_MESSAGES/.keep,2
+docs/bonus_guides/sessions.md,2
+lib/phoenix/template/html.ex,2
+installer/templates/phx_new/lib/app_name/web/router.ex,2
+installer/templates/phx_new/test/controllers/page_controller_test.exs,2
+test/phoenix/controller/stack_test.exs,2
+installer/templates/new/web/views/page_view.ex,2
+lib/phoenix/transports/fastlane.ex,2
+priv/templates/phx.gen.auth/registration_view.ex,2
+installer/templates/phx_web/templates/layout/app.html.heex,2
+installer/tmp/new inside umbrella/mix.exs,2
+installer/templates/phx_umbrella/apps/app_name_web/lib/templates/user/new.html.eex,2
+styling/Phoenix_files/bourbon/css3/_transition.scss,1
+mix-cowboy1.lock => mix-cowboy2.lock,1
+docs/{bonus_guides/mix_tasks.md => phoenix_mix_tasks.ex},1
+guides/styling/Phoenix_files/bourbon/functions/_contains.scss,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/{ => app_name}/views/layout_view.ex,1
+priv/templates/phx.gen.notifier/notifier.ex,1
+test/phoenix/endpoint/error_handler_test.exs,1
+guides/styling/Phoenix_files/bourbon/css3/_columns.scss,1
+template/priv/static/css/.gitkeep,1
+installer/templates/{phx_assets => phx_static}/favicon.ico,1
+{priv => installer}/templates/new/test/application_name_test.exs,1
+template/web/templates/page/error.html.eex,1
+guides/styling/Phoenix_files/bourbon/functions/_transition-property-name.scss,1
+guides/{realtime => channels}/presence.md,1
+guides/scopes.md,1
+test/phoenix/router/console_formatter_test.ex,1
+priv/templates/phx.gen.html/{form.html.eex => form.html.heex},1
+bonus_guides/E_config.md,1
+E_views.md => docs/views.md,1
+{template => priv/template}/test/test_helper.exs,1
+installer/templates/{phx_umbrella/apps/app_name_web/lib/app_name => phx_web}/controllers/page_controller.ex,1
+{template => priv/template}/priv/static/js/phoenix.js,1
+installer/templates/phx_assets/{webpack => }/babelrc,1
+guides/styling/Phoenix_files/bourbon/css3/_font-feature-settings.scss,1
+priv/template/package.json,1
+installer/templates/phx_test/controllers/error_json_test.exs,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/app_name/views/error_helpers.ex,1
+mix-tasks.md => X_mix-tasks.md,1
+test/phoenix/transports/{long_poller_test.exs => long_poll_test.exs},1
+bonus_guides/S_phoenix_behind_proxy.md => docs/bonus_guides/phoenix_behind_proxy.md,1
+template/web/templates/layout/application.html.eex,1
+lib/phoenix/router/{route_alias.ex => route_helper.ex},1
+lib/phoenix/controller/{page_controller.ex => error_controller.ex},1
+lib/phoenix/{view => }/view.ex,1
+installer/templates/phx_new/lib/app_name/web/templates/page/index.html.eex,1
+installer/templates/phx_assets/hero_icons/optimized.zip,1
+{template => priv/template}/web/i18n.ex,1
+guides/{ => realtime}/channels.md,1
+installer/lib/mix/tasks/{local_phoenix.ex => local.phoenix.ex},1
+bonus_guides/EE_custom_primary_key.md => docs/bonus_guides/custom_primary_key.md,1
+.github/ISSUE_TEMPLATE/bug_report.md,1
+{phoenix-landing-page => styling}/Phoenix_files/custom.css,1
+guides/styling/Phoenix_files/phoenix-logo-white.png,1
+test/phoenix/view/views/users/users.exs,1
+{priv => installer/templates}/static/brunch/brunch-config.js,1
+installer/templates/phx_assets/{webpack => }/socket.js,1
+lib/phoenix/code_reloader/watcher.ex,1
+test/phoenix/view/templates/user_test/user/_nav/top.html.eex,1
+{images => docs/assets/images}/hello-world-from-frank.png,1
+guides/styling/Phoenix_files/custom.css,1
+bonus_guides/P_using_ssl.md => docs/bonus_guides/using_ssl.md,1
+{template => priv/template}/mix.exs,1
+{template => priv/template}/web/controllers/page_controller.ex,1
+lib/phoenix/controller/{logger.ex => instrumenter.ex},1
+integration_test/test/code_generation/app_with_sqlite3_adapter_test.exs,1
+integration_test/code_generation/app_with_no_options_test.exs,1
+template/{lib/application_name/templates/pages => web/templates/page}/index.html.eex,1
+test/{support/pubsub_setup.exs => shared/pubsub_test.exs},1
+installer/templates/phx_assets/{hero_icons => heroicons}/UPGRADE.md,1
+templates.md,1
+priv/template/priv/{.gitkeep => .keep},1
+lib/phoenix/digester/gzip.ex,1
+template/test/application_name_test.exs,1
+test/fixtures/digest/priv/static/precompressed.js.br,1
+priv/templates/phx.gen.auth/{reset_password_new.html.eex => reset_password_new.html.heex},1
+installer/templates/phx_new/lib/{ => app_name}/web/templates/page/index.html.eex,1
+guides/styling/Phoenix_files/bourbon/addons/_word-wrap.scss,1
+guides/styling/Phoenix_files/bourbon/functions/_color-lightness.scss,1
+test/fixtures/static/images/phoenix.png,1
+styling/Phoenix_files/bourbon/css3/_image-rendering.scss,1
+installer/templates/phx_new/lib/app_name/application.ex,1
+installer/templates/{phx_new/test => phx_test}/support/conn_case.ex,1
+priv/templates/phoenix.gen.html/view.ex,1
+styling/Phoenix_files/bourbon/css3/_hidpi-media-query.scss,1
+test/phoenix/view/{views => templates}/users/sub.html.eex,1
+guides/styling/Phoenix_files/bourbon/css3/_animation.scss,1
+priv/{template => templates/new}/config/dev.exs,1
+guides/styling/Phoenix_files/bourbon/addons/_hide-text.scss,1
+guides/styling/Phoenix_files/_base.scss,1
+template/lib/application_name/views.ex,1
+bonus_guides/S_serving_behind_proxy.md,1
+{template => priv/template}/web/views.ex,1
+testing/G_controllers,1
+styling/Phoenix_files/bourbon/functions/_color-lightness.scss,1
+{priv => installer}/templates/new/config/test.exs,1
+{template => priv/template}/priv/static/css/app.css,1
+guides/styling/Phoenix_files/bourbon/functions/_px-to-em.scss,1
+lib/phoenix/endpoint/{cowboy_handler.ex => cowboy_adapter.ex},1
+installer/templates/phx_web/{templates/layout => components/layouts}/app.html.heex,1
+lib/phoenix/view/{base.ex => autocreator.ex},1
+guides/styling/Phoenix_files/bourbon/_bourbon.scss,1
+test/phoenix/view/views/{layouts.exs => layout_view.exs},1
+priv/{template/web/static/assets/images/.gitkeep => static/bare/app.js},1
+lib/phoenix/controller/websocket.ex,1
+installer/templates/usage-rules/assets.md,1
+styling/README.md,1
+priv/templates/ecto/priv/repo/migrations/.keep,1
+priv/templates/phx.gen.auth/registration_new.html.eex,1
+guides/{docs => }/phoenix_mix_tasks.md,1
+bonus_guides/J_sessions.md => docs/bonus_guides/sessions.md,1
+lib/phoenix/{ => test}/conn_test.ex,1
+docs/{phoenix_mix_tasks.ex => phoenix_mix_tasks.md},1
+config.md => J_config.md,1
+{phoenix-landing-page => styling}/Phoenix.html,1
+installer/templates/phx_new/lib/{ => app_name}/web/views/error_helpers.ex,1
+phoenix-landing-page/Phoenix_files/phoenix-logo-white.png,1
+installer/templates/usage-rules/project.md,1
+styling/Phoenix_files/bourbon/css3/_filter.scss,1
+styling/Phoenix_files/bourbon/css3/_placeholder.scss,1
+styling/Phoenix_files/bourbon/addons/_retina-image.scss,1
+test/phoenix/view/templates/{users => user_test/user}/nav/top.html.eex,1
+test/phoenix/view/templates/{layouts => user_test/layout}/application.html.eex,1
+test/fixtures/hello.txt,1
+priv/templates/phx.gen.live/{index.html.leex => index.html.heex},1
+installer/templates/{phx_new/lib/app_name/web => phx_web}/views/error_helpers.ex,1
+guides/{channels => real_time}/presence.md,1
+priv/templates/phx.gen.auth/confirmation_edit.html.eex,1
+test/phoenix/view/views/{users.exs => user_view.exs},1
+styling/Phoenix_files/bourbon/helpers/_render-gradients.scss,1
+guides/styling/Phoenix.html,1
+guides/{docs => }/channels.md,1
+priv/template/config/prod.secret.exs,1
+test/phoenix/{router/render_errors_test.exs => endpoint/error_handler_test.exs},1
+{template => priv/template}/.gitignore,1
+guides/styling/Phoenix_files/bourbon/functions/_strip-units.scss,1
+testing/{A_intruduction => A_introduction},1
+introduction/L_community.md => docs/introduction/community.md,1
+{priv => installer}/templates/new/lib/application_name/endpoint.ex,1
+styling/Phoenix_files/bourbon/functions/_is-size.scss,1
+installer/lib/phx_new/{app.ex => ecto.ex},1
+styling/Phoenix_files/bourbon/css3/_columns.scss,1
+assets/jest.config.js,1
+guides/styling/Phoenix_files/bourbon/helpers/_radial-positions-parser.scss,1
+guides/{docs => }/adding_pages.md,1
+I_static_assets.md => bonus_guides/G_static_assets.md,1
+guides/assets/images/hello-from-phoenix-dark.png,1
+lib/phoenix/transports/{json_serializer.ex => websocket_serializer.ex},1
+{template => priv/template}/config/config.exs,1
+guides/styling/Phoenix_files/analytics.js,1
+test/phoenix/view/templates/{users => user_test/user}/base.html.eex,1
+{web => assets}/test/presence_test.js,1
+test/fixtures/templates/user/render_template.html.eex,1
+test/mix/tasks/{phoenix.gen.secret_test.exs => phx.gen.secret_test.exs},1
+test/phoenix/view/templates/users/nav/top.html.eex,1
+priv/templates/phx.gen.html/{edit.html.eex => edit.html.heex},1
+guides/styling/Phoenix_files/bourbon/settings/_px-to-em.scss,1
+guides/styling/Phoenix_files/bourbon/css3/_selection.scss,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/channels/user_socket.ex,1
+phoenix-landing-page/Phoenix_files/custom.css,1
+template/web/views/page_view.ex,1
+test/phoenix/transports/{json_serializer_test.exs => websocket_serializer_test.exs},1
+router.md => C_routing.md,1
+priv/templates/{model => phoenix.gen.model}/model_test.exs,1
+bonus_guides/I_sending_email_with_mailgun.md => docs/bonus_guides/sending_email_with_mailgun.md,1
+installer/templates/phx_static/favicon.ico,1
+priv/templates/phx.gen.live/{modal.ex => modal_component.ex},1
+priv/templates/{phx.gen.html => phx.gen.context}/schema_access.ex,1
+installer/templates/phx_new/test/{ => web}/views/error_view_test.exs,1
+installer/templates/phx_umbrella/{.gitignore => gitignore},1
+Z_learning_elixir.md => bonus_guides/V_learning_elixir.md,1
+priv/template/web/static/assets/images/.gitkeep,1
+integration_test/code_generation/umbrella_app_with_defaults_test.exs,1
+installer/templates/phx_ecto/formatter.exs,1
+priv/templates/phx.gen.auth/{_menu.html.eex => _menu.html.heex},1
+priv/templates/phx.gen.live/{form.ex => form_component.ex},1
+bonus_guides/X_seeding_data.md => docs/bonus_guides/seeding_data.md,1
+priv/template/config/locales/en.exs,1
+installer/templates/{phx_new/priv/gettext => phx_gettext}/errors.pot,1
+{images => docs/assets/images}/hello-from-phoenix.png,1
+test/phoenix/router/{scoped_routing_test.exs => scope_test.exs},1
+test/fixtures/digest/priv/static/manifest.json,1
+styling/Phoenix_files/bourbon/addons/_hide-text.scss,1
+guides/styling/Phoenix_files/bourbon/addons/_triangle.scss,1
+installer/templates/phx_assets/{app.css => main.css},1
+resources.md => Z_resources.md,1
+styling/Phoenix_files/bourbon/helpers/_radial-arg-parser.scss,1
+phoenix-landing-page/Phoenix_files/bundle-hub.js,1
+test/phoenix/integration/{long_poll_test.exs => long_poll_channels_test.exs},1
+styling/Phoenix_files/bourbon/helpers/_gradient-positions-parser.scss,1
+styling/Phoenix_files/bourbon/addons/_position.scss,1
+{priv => installer}/templates/new/web/views/layout_view.ex,1
+styling/Phoenix_files/bourbon/css3/_selection.scss,1
+guides/{docs => }/introduction/learning.md,1
+test/phoenix/{ => transports}/socket_test.exs,1
+priv/templates/phx.gen.auth/reset_password_edit.html.eex,1
+guides/assets/images/hello-world-from-frank-dark.png,1
+{template => priv/template}/priv/static/images/.gitkeep,1
+installer/templates/{phx_new => phx_single}/config/prod.exs,1
+installer/templates/new/web/templates/layout/{application.html.eex => app.html.eex},1
+guides/docs/testing/{testing_models.md => testing_schemas.md},1
+{installer/templates/phx_test/support => priv/templates/phx.gen.channel}/channel_case.ex,1
+priv/templates/{resource => html}/view.ex,1
+lib/mix/tasks/{phoenix.start.ex => phoenix.server.ex},1
+test/phoenix/view/views/layouts/application.html.eex,1
+styling/Phoenix_files/bourbon/functions/_unpack.scss,1
+guides/logo.png,1
+H_ecto-models.md => H_ecto_models.md,1
+styling/Phoenix_files/bourbon/helpers/_convert-units.scss,1
+testing/A_introduction.md => docs/testing/testing.md,1
+test/fixtures/{manifest_upgrade.json => cache_manifest_upgrade.json},1
+priv/{template/priv/static/css/app.css => static/css/phoenix.css},1
+docs/bonus_guides/upgrading_phoenix.md,1
+installer/templates/{phx_assets/bare => phx_static}/app.js,1
+guides/styling/Phoenix_files/bourbon/helpers/_linear-positions-parser.scss,1
+lib/phoenix/transports/{long_poller => long_poll}/server.ex,1
+priv/{template => templates/new}/config/prod.exs,1
+templates.md => F_templates.md,1
+priv/templates/{resource => html}/show.html.eex,1
+lib/phoenix/status/status.txt,1
+guides/styling/Phoenix_files/bourbon/css3/_filter.scss,1
+installer/templates/phx_mailer/lib/app_name/mailer.ex,1
+installer/templates/{phx_new => phx_single}/config/test.exs,1
+priv/templates/html/new.html.eex,1
+A_up_and_running.md => docs/up_and_running.md,1
+guides/styling/Phoenix_files/bourbon/css3/_calc.scss,1
+installer/templates/{assets => phx_assets}/phoenix.css,1
+priv/{template => templates/new}/web/templates/layout/application.html.eex,1
+priv/static/images/{phoenix-logo.png => phoenix.png},1
+priv/templates/{resource => model}/model.ex,1
+test/phoenix/view/{views/users/nav => templates/users/_nav}/top.html.eex,1
+installer/templates/phx_umbrella/apps/app_name/lib/app_name/repo.ex,1
+phoenix-landing-page/Phoenix_files/analytics.js,1
+introduction.md => A_introduction.md,1
+installer/templates/{assets => phx_assets}/brunch/socket.js,1
+priv/templates/phx.gen.context/test_cases_scope.exs,1
+template/lib/application_name/models/.gitkeep,1
+customize.md => B_adding_pages.md,1
+test/fixtures/templates/{implicit_render => render_test}/index.html.eex,1
+guides/styling/Phoenix_files/bourbon/css3/_appearance.scss,1
+installer/templates/phx_assets/{tailwind_heroicons.js => heroicons.js},1
+channels.md,1
+Z_learning_elixir.md,1
+priv/templates/phx.gen.auth/{confirmation_new.html.eex => confirmation_new.html.heex},1
+guides/{docs => }/contexts.md,1
+integration_test/{ => test}/code_generation/umbrella_app_with_defaults_test.exs,1
+test/phoenix/view/templates/user_test/user/sub.html.eex,1
+test/fixtures/digest/compile/cache_manifest_upgrade.json,1
+priv/template/web/templates/page/error.html.eex,1
+guides/styling/Phoenix_files/bourbon/_bourbon-deprecated-upcoming.scss,1
+priv/templates/phx.gen.context/fixtures_module.ex,1
+guides/{docs => }/testing/testing_schemas.md,1
+priv/template/priv/static/images/.gitkeep,1
+installer/templates/phx_assets/babelrc,1
+guides/mix.lock,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/{ => app_name}/templates/page/index.html.eex,1
+test/mix/tasks/{phoenix.gen.resource_test.exs => phoenix.gen.html_test.exs},1
+styling/Phoenix_files/bourbon/addons/_timing-functions.scss,1
+styling/Phoenix_files/bourbon/css3/_radial-gradient.scss,1
+guides/{docs => }/introduction/community.md,1
+installer/templates/{phx_assets => phx_static}/phoenix.png,1
+test/fixtures/digest/cleaner/{latest_not_most_recent_manifest.json => latest_not_most_recent_cache_manifest.json},1
+installer/templates/phx_static/robots.txt,1
+priv/templates/{resource => html}/controller.ex,1
+template/.gitignore,1
+guides/styling/Phoenix_files/bourbon/helpers/_linear-gradient-parser.scss,1
+template/priv/static/phoenix.js,1
+priv/static/{app.js => phoenix.js},1
+priv/template/web/i18n.ex,1
+{template => priv/template}/web/views/page_view.ex,1
+guides/styling/Phoenix_files/bourbon/helpers/_gradient-positions-parser.scss,1
+test/fixtures/old_cache_manifest.json,1
+test/fixtures/{old_manifest.json => old_cache_manifest.json},1
+guides/styling/Phoenix_files/bundle-hub.css,1
+template/priv/static/images/.gitkeep,1
+installer/templates/phx_new/lib/{app_name.ex => app_name/application.ex},1
+integration_test/{ => test}/code_generation/app_with_no_options_test.exs,1
+lib/phoenix/websocket/handler.ex,1
+{template => priv/template}/web/views/layout_view.ex,1
+lib/phoenix/{router => endpoint}/adapter.ex,1
+test/fixtures/{manifest.json => cache_manifest.json},1
+template/web/controllers/page_controller.ex,1
+installer/templates/phx_web/templates/page/{index.html.eex => index.html.heex},1
+installer/templates/phx_umbrella/apps/app_name_web/lib/views/layout_view.ex,1
+installer/templates/{phx_new => phx_single}/README.md,1
+template/{lib/application_name/templates/layouts => web/templates/layout}/application.html.eex,1
+priv/templates/{html => phoenix.gen.html}/controller_test.exs,1
+priv/{template => templates/new}/README.md,1
+guides/README.md,1
+priv/template/priv/static/css/.gitkeep,1
+installer/templates/phx_new/lib/{app_name => }/web/templates/page/index.html.eex,1
+installer/templates/static/brunch/gitignore,1
+deployment/A_introduction.md => docs/deployment/deployment.md,1
+installer/templates/{phx_live/assets => phx_assets}/topbar.js,1
+guides/styling/Phoenix_files/bourbon/helpers/_font-source-declaration.scss,1
+installer/templates/phx_static/{main.css => app.css},1
+installer/templates/phx_assets/hero_icons/LICENSE.md,1
+{priv => installer}/templates/new/web/views/page_view.ex,1
+test/fixtures/templates/trim.html.eex,1
+styling/Phoenix_files/bourbon/helpers/_font-source-declaration.scss,1
+installer/templates/{phx_new => phx_single}/config/dev.exs,1
+template/lib/application_name/config/router.ex,1
+integration_test/test/code_generation/{app_with_sqlite3_adapter.exs => app_with_sqlite3_adapter_test.exs},1
+styling/Phoenix_files/bourbon/addons/_prefixer.scss,1
+priv/template/web/static/vendor/phoenix.js,1
+bonus_guides/X_task_supervisor.md,1
+testing/E_models,1
+test/fixtures/digest/priv/static/app.js.map,1
+priv/static/phoenix-orange.png,1
+test/fixtures/templates/render_test/index.html.eex,1
+{priv => installer}/templates/new/README.md,1
+priv/templates/resource/new.html.eex,1
+guides/styling/Phoenix_files/bourbon/settings/_prefixer.scss,1
+styling/Phoenix_files/bourbon/functions/_px-to-rem.scss,1
+testing/H_views.md => docs/testing/testing_views.md,1
+{phoenix-landing-page => styling}/Phoenix_files/analytics.js,1
+installer/templates/phx_umbrella/apps/app_name_web/{.gitignore => gitignore},1
+test/fixtures/digest/priv/static/precompressed.js.gz,1
+bonus_guides/H_file_uploads.md => docs/bonus_guides/file_uploads.md,1
+guides/styling/Phoenix_files/ga.js,1
+priv/static/{images => }/phoenix.png,1
+B_adding_pages.md => docs/adding_pages.md,1
+test/fixtures/digest/priv/output/foo-d978852bea6530fcd197b5445ed008fd.css,1
+priv/{template => templates/new}/config/config.exs,1
+installer/templates/{assets => phx_assets}/bare/gitignore,1
+lib/phoenix/view/autocreator.ex,1
+priv/templates/{phx.gen.html => phx.gen.context}/context.ex,1
+test/{router_helper.exs => conn_helper.exs},1
+installer/templates/{phx_umbrella/apps/app_name_web/lib/app_name => phx_web}/channels/user_socket.ex,1
+bonus_guides/X_task_supervisor.md => docs/bonus_guides/task_supervisor.md,1
+test/fixtures/templates/path.html.eex,1
+priv/templates/json/view.ex,1
+integration_test/{support/code_generator_case.exs => test/support/code_generator_case.ex},1
+guides/{docs => }/ecto.md,1
+installer/templates/{assets => phx_assets}/robots.txt,1
+priv/{template => templates/new}/web/controllers/page_controller.ex,1
+styling/Phoenix_files/bourbon/css3/_font-face.scss,1
+lib/phoenix/endpoint/{error_handler.ex => render_errors.ex},1
+help.md => Y_help.md,1
+priv/templates/{json => phoenix.gen.json}/changeset_view.ex,1
+installer/templates/new/lib/{application_name => app_name}/endpoint.ex,1
+priv/{template => templates/new}/lib/application_name/endpoint.ex,1
+priv/template/web/static/css/app.scss,1
+guides/{docs => }/presence.md,1
+guides/styling/Phoenix_files/bourbon/css3/_border-image.scss,1
+integration_test/docker-compose.yml,1
+installer/templates/phx_assets/bare/gitignore,1
+installer/templates/{assets => phx_assets}/bare/app.js,1
+priv/templates/phx.gen.auth/reset_password_new.html.eex,1
+test/phoenix/transports/socket_test.exs,1
+installer/templates/phx_umbrella/apps/app_name_web/.gitignore,1
+priv/templates/new/web/channels/.keep,1
+integration_test/support/code_generator_case.exs,1
+installer/lib/mix/tasks/local.phoenix.ex,1
+test/phoenix/{socket => }/socket_test.exs,1
+installer/templates/assets/brunch/.gitignore,1
+priv/templates/{resource => html}/controller_test.exs,1
+installer/lib/mix/tasks/{phx_new.ex => phx.new.ex},1
+installer/templates/phx_umbrella/apps/app_name_web/lib/router.ex,1
+guides/styling/Phoenix_files/bourbon/functions/_is-length.scss,1
+test/phoenix/view/views/Profiles/show.html.eex,1
+priv/templates/phx.gen.html/migration.exs,1
+priv/templates/phx.gen.auth/{registration_new.html.eex => registration_new.html.heex},1
+test/fixtures/digest/priv/static/phoenix.png,1
+priv/{template => templates/new}/web/views/error_view.ex,1
+guides/styling/Phoenix_files/custom.scss,1
+{priv => installer/templates}/static/app.css,1
+installer/templates/phx_new/lib/{app_name => }/web/views/error_helpers.ex,1
+guides/styling/Phoenix_files/bourbon/css3/_font-face.scss,1
+priv/template/web/models/.keep,1
+template/priv/static/css/app.css,1
+installer/templates/{phx_new => phx_single}/mix.exs,1
+installer/templates/phx_new/lib/web.ex,1
+installer/templates/phx_assets/{hero_icons => heroicons}/LICENSE.md,1
+guides/authn_authz/authn_authz.md,1
+priv/templates/{channel => phoenix.gen.channel}/channel.ex,1
+priv/templates/{json => phoenix.gen.json}/controller.ex,1
+guides/{docs => }/testing/testing_controllers.md,1
+installer/templates/phx_umbrella/apps/app_name/.gitignore,1
+test/phoenix/view/views/user_view.exs,1
+installer/templates/{phx_new/lib/app_name/web => phx_web}/templates/layout/app.html.eex,1
+guides/CONTRIBUTING.md,1
+test/{phoenix/view/templates/user_test => fixtures/templates}/layout/application.html.eex,1
+test/phoenix/view/templates/profiles/mini.html.eex,1
+test/phoenix/integration/{adapter_test.exs => endpoint_test.exs},1
+styling/Phoenix_files/bourbon/functions/_px-to-em.scss,1
+installer/templates/new/lib/app_name/endpoint.ex,1
+lib/phoenix/transports/{longpoller => long_poller}/server.ex,1
+L_advanced_deployment.md => deployment/I_exrm_releases,1
+guides/styling/Phoenix_files/bourbon/addons/_position.scss,1
+styling/Phoenix_files/bourbon/css3/_flex-box.scss,1
+priv/{template => templates/new}/config/test.exs,1
+priv/templates/{resource => html}/index.html.eex,1
+template/{lib/application_name => web}/router.ex,1
+priv/templates/phx.gen.html/context_test.exs,1
+test/phoenix/websocket/raw_websocket_test.exs,1
+guides/{docs => }/assets/images/hello-from-phoenix.png,1
+guides/{docs => }/templates.md,1
+installer/templates/phx_new/lib/{ => app_name}/web/router.ex,1
+styling/Phoenix_files/bourbon/_bourbon.scss,1
+installer/templates/phx_assets/{main.css => app.css},1
+deployment.md => K_deployment.md,1
+installer/templates/{phx_umbrella/apps/app_name_web/lib/app_name => phx_web}/endpoint.ex,1
+priv/templates/{model => phoenix.gen.model}/migration.exs,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/app_name/views/layout_view.ex,1
+installer/templates/phx_assets/{webpack => }/package.json,1
+bonus_guides/V_learning_elixir.md => docs/bonus_guides/learning_elixir.md,1
+styling/Phoenix_files/bourbon/addons/_directional-values.scss,1
+deployment/E_heroku.md => docs/deployment/heroku.md,1
+priv/templates/phx.gen.auth/{confirmation_edit.html.eex => confirmation_edit.html.heex},1
+priv/{template => templates/new}/web/models/.keep,1
+guides/{docs => }/plug.md,1
+test/fixtures/{ => digest/compile}/cache_manifest.json,1
+priv/templates/resource/{migration.ex => migration.exs},1
+test/phoenix/view/templates/{users => user_test/user}/_nav/top.html.eex,1
+integration_test/{ => test}/code_generation/app_with_defaults_test.exs,1
+{phoenix-landing-page => styling}/Phoenix_files/bundle-hub.css,1
+lib/phoenix/{router => endpoint}/cowboy_handler.ex,1
+guides/assets/images/welcome-to-phoenix-dark.png,1
+lib/phoenix/{router/render_errors.ex => endpoint/error_handler.ex},1
+priv/templates/phx.gen.html/{index.html.eex => index.html.heex},1
+bonus_guides/{S_serving_behind_proxy.md => S_phoenix_behind_proxy.md},1
+installer/templates/{phx_live/templates/layout/app.html.leex => phx_web/templates/layout/app.html.heex},1
+priv/template/test/application_name_test.exs,1
+guides/styling/Phoenix_files/bourbon/css3/_linear-gradient.scss,1
+guides/styling/Phoenix_files/bourbon/css3/_flex-box.scss,1
+guides/styling/Phoenix_files/bourbon/helpers/_linear-angle-parser.scss,1
+priv/{template/web/static/js => static/brunch}/app.js,1
+D_controllers.md => docs/controllers.md,1
+test/fixtures/templates/user/index.html.eex,1
+guides/{docs => }/endpoint.md,1
+test/fixtures/digest/cleaner/latest_not_most_recent_manifest.json,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/{ => app_name}/views/error_view.ex,1
+testing/J_channels.md => docs/testing/testing_channels.md,1
+installer/lib/mix/tasks/{phoenix_new.ex => phoenix.new.ex},1
+installer/templates/{phx_new/test/web => phx_test}/views/page_view_test.exs,1
+installer/templates/phx_new/lib/{ => app_name}/web/templates/layout/app.html.eex,1
+guides/styling/Phoenix_files/bourbon/css3/_box-sizing.scss,1
+introduction/E_installation.md => docs/introduction/installation.md,1
+priv/templates/{phx.gen.html => phx.gen.schema}/migration.exs,1
+priv/templates/phx.gen.auth/{session_new.html.eex => session_new.html.heex},1
+test/phoenix/view/views/{users => }/users.exs,1
+mix-cowboy2.lock => mix-cowboy1.lock,1
+guides/{docs => }/assets/images/welcome-to-phoenix.png,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/views/error_view.ex,1
+installer/templates/phx_single/lib/app_name/{ => web}/web.ex,1
+styling/Phoenix_files/bourbon/css3/_keyframes.scss,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/{ => app_name}/router.ex,1
+bonus_guides/I_sending_email_with_mailgun.md,1
+priv/templates/{html => phoenix.gen.html}/view.ex,1
+priv/template/web/templates/page/index.html.eex,1
+test/fixtures/digest/priv/output/foo-288ea8c7954498e65663c817382eeac4.css,1
+guides/styling/Phoenix_files/bundle-hub.js,1
+styling/Phoenix_files/bourbon/helpers/_radial-gradient-parser.scss,1
+priv/templates/{resource => html}/edit.html.eex,1
+lib/phoenix/{channel => }/channel.ex,1
+installer/templates/phx_new/test/{ => web}/controllers/page_controller_test.exs,1
+phoenix-landing-page/README.md,1
+test/phoenix/controller/{stack_test.exs => pipeline_test.exs},1
+phoenix-landing-page/Phoenix_files/custom.scss => styling/Phoenix_files/_hero.scss,1
+X_mix-tasks.md => bonus_guides/D_mix_tasks.md,1
+styling/Phoenix_files/bourbon/functions/_assign.scss,1
+installer/templates/{phx_assets => phx_static}/app.css,1
+test/phoenix/{controller => }/logger_test.exs,1
+styling/Phoenix_files/bourbon/css3/_text-decoration.scss,1
+introduction/A_overview.md => docs/introduction/overview.md,1
+priv/templates/phx.gen.html/{new.html.eex => new.html.heex},1
+template/lib/application_name/{config => }/router.ex,1
+installer/lib/{ => mix/tasks}/phoenix_new.ex,1
+bonus_guides/I_sending_email_with_smtp.md => docs/bonus_guides/sending_email_with_smtp.md,1
+guides/{endpoint.md => howto/using_ssl.md},1
+testing/G_controllers.md => docs/testing/testing_controllers.md,1
+installer/templates/phx_new/lib/{ => app_name}/web/endpoint.ex,1
+template/{lib/application_name/controllers/pages.ex => web/controllers/page_controller.ex},1
+{priv => installer/templates}/static/brunch/app.js,1
+priv/{ => templates}/ecto/lib/application_name/repo.ex,1
+test/phoenix/view/templates/{profiles => user_test/profile}/show.html.eex,1
+phoenix-landing-page/Phoenix_files/css.css,1
+guides/{views.md => components.md},1
+{test/mix => installer/test}/mix_helper.exs,1
+priv/templates/phx.gen.live/{show.html.leex => show.html.heex},1
+priv/ecto/lib/application_name/repo.ex,1
+priv/templates/phx.gen.html/form_component.html.heex,1
+installer/templates/assets/bare/.gitignore,1
+deployment/{I_exrm_releases => I_exrm_releases.md},1
+installer/templates/phx_new/lib/{app_name => }/web/router.ex,1
+priv/templates/new/web/views/error_view.ex,1
+guides/{realtime => channels}/channels.md,1
+DD_Plug.md => docs/plug.md,1
+priv/static/css/phoenix.css,1
+priv/template/priv/.gitkeep,1
+webpack.config.js => assets/webpack.config.js,1
+template/web/i18n.ex,1
+guides/LICENSE,1
+priv/templates/phx.gen.auth/_menu.html.eex,1
+guides/{channels => real_time}/channels.md,1
+priv/{template => templates/new}/web/views/layout_view.ex,1
+guides/styling/Phoenix_files/_hero.scss,1
+test/phoenix/debug_test.exs,1
+template/priv/static/{ => js}/phoenix.js,1
+test/phoenix/view/templates/{profiles => user_test/profile}/mini.html.eex,1
+guides/docs/templates.md,1
+styling/Phoenix_files/bourbon/css3/_perspective.scss,1
+guides/{docs => }/errors.md,1
+installer/templates/phx_new/lib/{app_name => }/web/views/layout_view.ex,1
+installer/templates/assets/brunch/{.gitignore => gitignore},1
+priv/{template => templates/new}/config/prod.secret.exs,1
+F_templates.md => docs/templates.md,1
+test/phoenix/view/templates/user_test/profile/show.html.eex,1
+test/phoenix/integration/{websocket_test.exs => websocket_channels_test.exs},1
+test/fixtures/digest/cleaner/{manifest.json => cache_manifest.json},1
+lib/phoenix/{router => }/router.ex,1
+test/fixtures/digest/priv/static/foo.css,1
+template/lib/application_name/templates/layouts/application.html.eex,1
+priv/templates/{resource => html}/form.html.eex,1
+styling/Phoenix_files/bourbon/helpers/_is-num.scss,1
+installer/templates/new/test/application_name_test.exs,1
+guides/{docs => }/testing/testing.md,1
+test/phoenix/{config => }/config_test.exs,1
+installer/templates/{phx_new/lib/app_name/web => phx_web}/views/layout_view.ex,1
+guides/styling/Phoenix_files/bourbon/css3/_transition.scss,1
+{web => assets}/test/channel_test.js,1
+phoenix-landing-page/Phoenix_files/bundle-hub.css,1
+guides/styling/Phoenix_files/bourbon/functions/_unpack.scss,1
+installer/templates/{phx_new/lib/app_name/web => phx_web}/templates/page/index.html.eex,1
+installer/templates/assets/bare/{.gitignore => gitignore},1
+installer/templates/{phx_umbrella/apps/app_name_web/test => phx_test}/support/channel_case.ex,1
+styling/Phoenix_files/bourbon/css3/_box-sizing.scss,1
+styling/Phoenix_files/bourbon/css3/_font-feature-settings.scss,1
+guides/lib/mix/tasks/docs.watch.ex,1
+priv/templates/phoenix.gen.model/model_test.exs,1
+assets/{.babelrc => babel.config.json},1
+installer/lib/{ => mix/tasks}/local_phoenix.ex,1
+{priv/templates/ecto/lib/application_name => installer/templates/ecto}/repo.ex,1
+styling/Phoenix_files/bourbon/css3/_user-select.scss,1
+installer/templates/phx_assets/brunch/app.js,1
+priv/templates/phx.gen.live/components.ex => installer/templates/phx_web/components/core_components.ex,1
+{priv => installer/templates}/static/brunch/.gitignore,1
+styling/Phoenix_files/_base.scss,1
+package-lock.json => assets/package-lock.json,1
+{priv => installer}/templates/new/web/router.ex,1
+guides/{docs => }/controllers.md,1
+installer/templates/{assets => phx_assets}/brunch/package.json,1
+installer/lib/mix/tasks/{local_phx.ex => local.phx.ex},1
+installer/templates/{phx_web => phx_gettext}/gettext.ex,1
+priv/template/web/views.ex,1
+priv/templates/phx.gen.auth/confirmation_new.html.eex,1
+testing/A_introduction,1
+priv/templates/{html => phoenix.gen.html}/show.html.eex,1
+guides/styling/Phoenix_files/bourbon/functions/_px-to-rem.scss,1
+database.md => H_ecto-models.md,1
+test/phoenix/view/{views => templates}/users/base.html.eex,1
+installer/templates/phx_new/lib/{app_name => }/gettext.ex,1
+installer/templates/{phx_new => phx_single}/lib/app_name/web.ex,1
+installer/templates/{assets => phx_assets}/brunch/gitignore,1
+{priv => installer}/templates/new/config/prod.exs,1
+guides/styling/Phoenix_files/bourbon/functions/_tint-shade.scss,1
+template/{lib/application_name => web}/views.ex,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/app_name/templates/layout/app.html.eex,1
+priv/templates/new/web/models/.keep,1
+styling/Phoenix_files/bourbon/addons/_clearfix.scss,1
+installer/templates/phx_web/{templates/layout => components/layouts}/root.html.heex,1
+{priv => installer}/templates/new/lib/application_name.ex,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/{ => app_name}/channels/user_socket.ex,1
+test/mix/tasks/{phoenix/routes_test.exs => phoenix.routes_test.exs},1
+guides/styling/Phoenix_files/bourbon/addons/_timing-functions.scss,1
+{priv => installer}/templates/new/web/views/error_view.ex,1
+installer/templates/{phx_assets => phx_static}/phoenix.css,1
+integration_test/code_generation/app_with_defaults_test.exs,1
+styling/Phoenix_files/bourbon/functions/_transition-property-name.scss,1
+guides/styling/Phoenix_files/bourbon/addons/_clearfix.scss,1
+guides/styling/Phoenix_files/bourbon/css3/_keyframes.scss,1
+test/phoenix/{view => }/view_test.exs,1
+styling/Phoenix_files/bourbon/functions/_modular-scale.scss,1
+installer/templates/phx_assets/{brunch => webpack}/socket.js,1
+guides/{authentication => authn_authz}/api_authentication.md,1
+priv/{template => templates/new}/web/views/page_view.ex,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/{ => app_name}/views/page_view.ex,1
+installer/templates/phx_new/lib/{app_name => }/web/channels/user_socket.ex,1
+priv/static/{phoenix.esm.js.map => phoenix.mjs.map},1
+{phoenix-landing-page => styling}/Phoenix_files/ga.js,1
+priv/templates/{phx.gen.html => phx.gen.context}/context_test.exs,1
+lib/phoenix/{socket => }/socket.ex,1
+installer/templates/phx_assets/favicon.ico,1
+test/phoenix/view/templates/{users => user_test/user}/sub.html.eex,1
+installer/templates/{phx_live/templates/layout/live.html.leex => phx_web/templates/layout/live.html.heex},1
+priv/templates/new/lib/application_name.ex,1
+lib/phoenix/plugs/{router_logger.ex => controller_logger.ex},1
+installer/templates/{phx_new/lib/app_name/web => phx_web}/views/page_view.ex,1
+priv/templates/json/changeset_view.ex,1
+test/phoenix/{ => socket}/socket_test.exs,1
+static-assets.md,1
+installer/templates/{phx_assets => phx_static}/phoenix.js,1
+installer/lib/mix/tasks/ecto.ex,1
+installer/templates/phx_new/test/web/views/layout_view_test.exs,1
+priv/templates/{html => phoenix.gen.html}/new.html.eex,1
+guides/styling/Phoenix_files/bourbon/addons/_directional-values.scss,1
+testing/E_models.md => docs/testing/testing_models.md,1
+guides/styling/Phoenix_files/bourbon/css3/_background-image.scss,1
+priv/{template => templates/new}/web/templates/page/index.html.eex,1
+lib/phoenix/code_reloader/mix_listener.ex,1
+test/fixtures/ssl/cert.pem,1
+priv/templates/{html => phoenix.gen.html}/controller.ex,1
+test/fixtures/templates/implicit_render/index.html.eex,1
+lib/phoenix/controller/instrumenter.ex,1
+bonus_guides/{I_sending_email.md => I_sending_email_with_mailgun.md},1
+styling/Phoenix_files/bourbon/helpers/_linear-gradient-parser.scss,1
+installer/templates/{phx_assets => phx_static}/robots.txt,1
+{template => priv/template}/web/templates/page/not_found.html.eex,1
+channels.md => G_channels.md,1
+styling/Phoenix_files/bourbon/css3/_background.scss,1
+installer/lib/{phx_new => mix/tasks}/ecto.ex,1
+installer/templates/phx_new/lib/{app_name => }/web.ex,1
+priv/{static/js => template/web/static/vendor}/phoenix.js,1
+installer/templates/phx_web/templates/layout/live.html.heex,1
+guides/{phoenix_mix_tasks.md => mix_tasks.md},1
+installer/templates/phx_assets/heroicons/LICENSE.md,1
+priv/templates/{html => phoenix.gen.html}/index.html.eex,1
+guides/{docs => }/deployment/heroku.md,1
+styling/Phoenix_files/bourbon/addons/_font-family.scss,1
+bonus_guides/D_mix_tasks.md => docs/bonus_guides/mix_tasks.md,1
+guides/styling/Phoenix_files/bourbon/addons/_font-family.scss,1
+installer/templates/phx_new/lib/{app_name => }/web/views/page_view.ex,1
+{template => priv/template}/test/application_name_test.exs,1
+priv/{static/css/phoenix.css => template/web/static/css/app.scss},1
+installer/templates/static/bare/{.gitignore => gitignore},1
+{template => priv/template}/web/router.ex,1
+styling/Phoenix_files/bourbon/css3/_border-image.scss,1
+guides/styling/Phoenix_files/bourbon/css3/_background.scss,1
+priv/templates/phx.gen.live/{form_component.html.leex => form_component.html.heex},1
+H_ecto_models.md => docs/ecto_models.md,1
+priv/templates/{json => phoenix.gen.json}/view.ex,1
+priv/template/web/channels/.keep,1
+priv/static/{phoenix.esm.js => phoenix.mjs},1
+installer/templates/phx_web/{templates/page/index.html.heex => controllers/page_html/home.html.heex},1
+{priv => installer}/templates/new/web/templates/layout/application.html.eex,1
+installer/templates/phx_assets/phoenix.png,1
+lib/phoenix/transports/longpoller.ex,1
+{phoenix-landing-page => styling}/README.md,1
+installer/lib/mix/tasks/{web.ex => phx.new.web.ex},1
+styling/Phoenix_files/bourbon/addons/_word-wrap.scss,1
+test/fixtures/templates/no_trim.text.eex,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/views/page_view.ex,1
+guides/styling/Phoenix_files/bourbon/css3/_radial-gradient.scss,1
+installer/templates/assets/bare/app.js,1
+template/web/templates/page/not_found.html.eex,1
+images/hello-world-from-frank.png,1
+guides/styling/Phoenix_files/_variables.scss,1
+test/fixtures/templates/custom.foo,1
+installer/templates/phx_umbrella/apps/app_name/lib/{app_name.ex => app_name/application.ex},1
+lib/mix/tasks/{ => phoenix}/new.ex,1
+test/phoenix/view/{views => templates}/layouts/application.html.eex,1
+views.md => E_views.md,1
+styling/Phoenix_files/bourbon/helpers/_str-to-num.scss,1
+docs/presence.md,1
+{template => priv/template}/config/locales/en.exs,1
+test/fixtures/templates/user/profiles/admin.html.eex,1
+test/phoenix/view/views/{layouts => }/layouts.exs,1
+test/phoenix/{transports/websocket_serializer_test.exs => socket/v1_json_serializer_test.exs},1
+lib/phoenix/plugs/{logger.ex => controller_logger.ex},1
+styling/Phoenix_files/bourbon/settings/_px-to-em.scss,1
+{web/static => assets}/js/phoenix.js,1
+guides/styling/Phoenix_files/bourbon/css3/_transform.scss,1
+installer/lib/{ => mix/tasks}/phx_new.ex,1
+test/{phoenix/integration => support}/websocket_client.exs,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/{ => app_name}/gettext.ex,1
+mix-tasks.md,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/app_name/router.ex,1
+installer/templates/new/priv/gettext/{en/LC_MESSAGES/default.po => default.pot},1
+test/phoenix/router/{console_formatter_test.ex => console_formatter_test.exs},1
+test/fixtures/templates/assign/index.html.eex,1
+A_introduction.md => A_up_and_running.md,1
+guides/mix.exs,1
+deployment/I_exrm_releases.md => docs/deployment/exrm_releases.md,1
+priv/templates/phx.gen.auth/{reset_password_edit.html.eex => reset_password_edit.html.heex},1
+styling/Phoenix_files/bourbon/css3/_backface-visibility.scss,1
+guides/styling/Phoenix_files/bourbon/css3/_hidpi-media-query.scss,1
+guides/.gitignore,1
+lib/phoenix/{controller => }/controller.ex,1
+controllers.md => D_controllers.md,1
+installer/templates/{phx_new/test/web => phx_test}/controllers/page_controller_test.exs,1
+assets/babel.config.json => babel.config.json,1
+views.md,1
+installer/templates/{phx_new => phx_single}/config/prod.secret.exs,1
+styling/Phoenix_files/bourbon/helpers/_radial-positions-parser.scss,1
+bonus_guides/G_static_assets.md => docs/bonus_guides/static_assets.md,1
+{priv => installer/templates}/static/brunch/package.json,1
+guides/styling/Phoenix_files/bourbon/helpers/_shape-size-stripper.scss,1
+{template => priv/template}/web/templates/page/index.html.eex,1
+installer/templates/{phx_new => phx_single}/lib/app_name/application.ex,1
+priv/{template => templates/new}/lib/application_name.ex,1
+installer/templates/phx_new/lib/{app_name => }/web/controllers/page_controller.ex,1
+guides/docs/errors.md,1
+test/phoenix/view/{views => }/views.exs,1
+lib/phoenix/endpoint/{supervisor.ex => server.ex},1
+priv/templates/html/edit.html.eex,1
+guides/styling/Phoenix_files/bourbon/addons/_retina-image.scss,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/{ => app_name}/endpoint.ex,1
+template/web/models/.gitkeep,1
+priv/template/web/templates/page/not_found.html.eex,1
+styling/Phoenix_files/bourbon/helpers/_shape-size-stripper.scss,1
+installer/templates/phx_new/lib/{app_name => }/web/views/error_view.ex,1
+test/phoenix/{plugs/controller_logger_test.exs => controller/logger_test.exs},1
+lib/mix/tasks/{phoenix/start.ex => phoenix.start.ex},1
+styling/Phoenix_files/bourbon/addons/_html5-input-types.scss,1
+installer/templates/phx_new/lib/{ => app_name}/web/channels/user_socket.ex,1
+guides/styling/Phoenix_files/bourbon/helpers/_linear-side-corner-parser.scss,1
+priv/templates/resource/view.ex,1
+priv/templates/phx.gen.auth/session_new.html.eex,1
+styling/Phoenix_files/bourbon/css3/_background-image.scss,1
+lib/phoenix/code_reloader/{watcher.ex => change_detector.ex},1
+test/fixtures/templates/layout/root.html.eex,1
+priv/{template => templates/new}/web/router.ex,1
+lib/phoenix/{status => }/status.ex,1
+guides/styling/Phoenix_files/bourbon/addons/_prefixer.scss,1
+test/phoenix/view/views/users/base.html.eex,1
+{priv => installer}/templates/new/test/test_helper.exs,1
+{priv/src/static => assets}/cs/phoenix.coffee,1
+test/phoenix/integration/{channel_transports_test.exs => channel_test.exs},1
+installer/templates/{phx_new => phx_single}/config/config.exs,1
+priv/{template => templates/new}/test/application_name_test.exs,1
+guides/styling/Phoenix_files/bourbon/addons/_html5-input-types.scss,1
+test/fixtures/digest/priv/static/images/relative.png,1
+installer/templates/phx_assets/heroicons/optimized.zip,1
+bonus_guides/E_using_mysql.md => docs/bonus_guides/using_mysql.md,1
+test/phoenix/{ => channel}/channel_test.exs,1
+{template => priv/template}/lib/application_name.ex,1
+lib/phoenix/{config => }/config.ex,1
+lib/phoenix/examples/views/{users/users.ex => Pages/pages.ex},1
+{priv => installer}/templates/new/web/templates/page/index.html.eex,1
+guides/styling/Phoenix_files/bourbon/functions/_assign.scss,1
+guides/{errors.md => howto/custom_error_pages.md},1
+installer/templates/phx_umbrella/apps/app_name_web/lib/views/error_helpers.ex,1
+priv/{template => templates/new}/mix.exs,1
+test/phoenix/view/{views/Profiles => templates/profiles}/show.html.eex,1
+test/fixtures/templates/render_test/show.json.exs,1
+priv/templates/phx.gen.auth/{settings_edit.html.eex => settings_edit.html.heex},1
+test/phoenix/digester/gzip_test.exs,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/app_name/views/error_view.ex,1
+lib/phoenix/{template => }/template.ex,1
+guides/{docs => }/assets/images/hello-world-from-frank.png,1
+styling/Phoenix_files/bourbon/helpers/_linear-angle-parser.scss,1
+priv/{template => templates/new}/web/web.ex,1
+test/fixtures/templates/{render_test => user}/show.json.exs,1
+test/fixtures/ssl/key.pem,1
+template/lib/application_name/templates/pages/index.html.eex,1
+styling/Phoenix_files/bourbon/settings/_prefixer.scss,1
+template/web/views/layout_view.ex,1
+priv/templates/{html => phoenix.gen.html}/form.html.eex,1
+guides/styling/Phoenix_files/bourbon/addons/_ellipsis.scss,1
+installer/templates/phx_assets/{webpack => }/app.js,1
+installer/templates/phx_new/lib/{app_name => }/web/templates/layout/app.html.eex,1
+assets/package-lock.json => package-lock.json,1
+installer/templates/phx_single/lib/{app_name/web => app_name_web}/web.ex,1
+{web => assets}/test/socket_test.js,1
+test/phoenix/router/{stack_test.exs => pipeline_test.exs},1
+{template => priv/template}/README.md,1
+installer/templates/assets/bare/gitignore,1
+installer/templates/{phx_new/test/web => phx_test}/views/error_view_test.exs,1
+priv/template/web/models/.gitkeep,1
+{priv => installer/templates}/static/bare/.gitignore,1
+{template => priv/template}/web/templates/layout/application.html.eex,1
+lib/phoenix/transports/{longpoller.ex => long_poller.ex},1
+guides/{docs => }/introduction/overview.md,1
+priv/templates/{json => phoenix.gen.json}/controller_test.exs,1
+guides/styling/Phoenix_files/bourbon/css3/_border-radius.scss,1
+test/phoenix/{ => endpoint}/endpoint_test.exs,1
+phoenix-landing-page/Phoenix_files/custom.scss,1
+testing/A_intruduction,1
+installer/templates/{phx_new/priv/gettext => phx_gettext}/en/LC_MESSAGES/errors.po,1
+priv/templates/{phoenix.gen.presence => phx.gen.presence}/presence.ex,1
+priv/templates/{channel => phoenix.gen.channel}/channel_test.exs,1
+installer/lib/mix/tasks/{ecto.ex => phx.new.ecto.ex},1
+guides/styling/Phoenix_files/css.css,1
+testing/A_intruduction.md,1
+guides/docs/testing/testing_views.md,1
+{template => priv/template}/web/models/.gitkeep,1
+test/phoenix/router/{named_routing_test.exs => helpers_test.exs},1
+priv/templates/phx.gen.html/{form_component.html.heex => resource_form.html.heex},1
+guides/styling/Phoenix_files/bourbon/helpers/_render-gradients.scss,1
+test/phoenix/plugs/{router_logger_test.exs => controller_logger_test.exs},1
+guides/{docs => }/deployment/deployment.md,1
+test/fixtures/templates/layout/{application.html.eex => app.html.eex},1
+priv/template/web/views/{errors_view.ex => error_view.ex},1
+guides/{docs => }/routing.md,1
+installer/templates/assets/app.css,1
+{phoenix-landing-page => styling}/Phoenix_files/bundle-hub.js,1
+priv/template/web/channels/.gitkeep,1
+guides/styling/Phoenix_files/bourbon/css3/_user-select.scss,1
+priv/{template => templates/new}/test/test_helper.exs,1
+test/fixtures/{ => digest/compile}/cache_manifest_upgrade.json,1
+styling/Phoenix_files/bourbon/functions/_strip-units.scss,1
+{priv => installer}/templates/new/mix.exs,1
+installer/templates/phx_assets/tailwind_heroicons.js,1
+lib/phoenix/examples/views/Pages/pages.ex,1
+styling/Phoenix_files/bourbon/css3/_linear-gradient.scss,1
+{images => docs/assets/images}/welcome-to-phoenix.png,1
+guides/{ => authn_authz}/scopes.md,1
+guides/styling/README.md,1
+lib/phoenix/transports/{long_poller.ex => long_poll.ex},1
+test/fixtures/digest/compile/cache_manifest.json,1
+installer/templates/phx_umbrella/apps/app_name/{.gitignore => gitignore},1
+installer/templates/{assets => phx_assets}/brunch/brunch-config.js,1
+styling/Phoenix_files/bourbon/css3/_transform.scss,1
+testing/{A_intruduction => E_models.md},1
+test/fixtures/old_manifest.json,1
+styling/Phoenix_files/bourbon/css3/_animation.scss,1
+{priv/templates/phx.gen.live => installer/templates/phx_web/components}/core_components.ex,1
+phoenix-landing-page/Phoenix.html,1
+test/phoenix/view/views/users/sub.html.eex,1
+guides/styling/Phoenix_files/bourbon/css3/_image-rendering.scss,1
+test/phoenix/view/templates/user_test/user/base.html.eex,1
+web/{static => }/test/presence_test.js,1
+assets/jest.config.js => jest.config.js,1
+installer/templates/phx_assets/socket.js,1
+test/fixtures/digest/cleaner/manifest.json,1
+guides/styling/Phoenix_files/bourbon/helpers/_str-to-num.scss,1
+test/fixtures/templates/{assign/index.html.eex => render_test/implicit.html.eex},1
+installer/templates/phx_umbrella/apps/app_name_web/config/{prod.secret.exs => runtime.exs},1
+lib/phoenix/{controller/websocket.ex => websocket/raw_websocket.ex},1
+installer/templates/{phx_live/templates/layout/root.html.leex => phx_web/templates/layout/root.html.heex},1
+bonus_guides/F_config.md => docs/bonus_guides/config.md,1
+bonus_guides/M_custom_errors.md => docs/bonus_guides/custom_errors.md,1
+styling/Phoenix_files/bourbon/addons/_triangle.scss,1
+C_routing.md => docs/routing.md,1
+{priv => installer}/templates/new/config/config.exs,1
+{phoenix-landing-page => styling}/Phoenix_files/phoenix-logo-white.png,1
+guides/channels/presence.md,1
+testing/{G_controllers => H_views.md},1
+priv/templates/new/priv/.keep,1
+styling/Phoenix_files/bourbon/css3/_hyphens.scss,1
+installer/templates/phx_static/{app.css => main.css},1
+guides/{docs => }/testing/testing_channels.md,1
+test/mix/tasks/phx.gen.secret_test.exs,1
+guides/styling/Phoenix_files/bourbon/css3/_text-decoration.scss,1
+priv/{template => templates/new}/web/channels/.keep,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/{ => app_name}/templates/layout/app.html.eex,1
+test/phoenix/endpoint/{error_handler_test.exs => render_errors_test.exs},1
+guides/styling/Phoenix_files/bourbon/helpers/_radial-gradient-parser.scss,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/app_name/templates/page/index.html.eex,1
+priv/{template => static/brunch}/brunch-config.js,1
+installer/templates/phx_new/lib/{ => app_name}/web/views/layout_view.ex,1
+guides/styling/Phoenix_files/bourbon/css3/_hyphens.scss,1
+styling/Phoenix_files/bourbon/functions/_tint-shade.scss,1
+controllers.md,1
+test/phoenix/{channel => transports}/transport_test.exs,1
+{template => priv/template}/web/channels/.gitkeep,1
+priv/templates/resource/migration.ex,1
+installer/templates/phx_new/lib/{ => app_name}/gettext.ex,1
+lib/phoenix/{mime => }/mime.ex,1
+installer/templates/{phx_umbrella/apps/app_name_web/lib/app_name => phx_web}/gettext.ex,1
+recreate_default_css.exs => installer/recreate_default_css.exs,1
+lib/phoenix/{plugs/controller_logger.ex => controller/logger.ex},1
+test/fixtures/templates/render_test/implicit.html.eex,1
+test/phoenix/{websocket_test.exs => websocket/raw_websocket_test.exs},1
+installer/templates/phx_umbrella/apps/app_name_web/lib/app_name/views/page_view.ex,1
+{template => priv/template}/priv/static/css/.gitkeep,1
+installer/templates/assets/phoenix.css,1
+guides/styling/Phoenix_files/bourbon/functions/_is-size.scss,1
+priv/{template => static/bare}/.gitignore,1
+styling/Phoenix_files/bourbon/helpers/_linear-positions-parser.scss,1
+test/phoenix/view/views/layout_view.exs,1
+installer/templates/{phx_new/lib/app_name/web => phx_web}/views/error_view.ex,1
+installer/templates/phx_new/lib/{ => app_name}/web/views/error_view.ex,1
+styling/Phoenix_files/bourbon/addons/_ellipsis.scss,1
+guides/live_view.md,1
+priv/{template => templates/new}/priv/.keep,1
+priv/static/images/phoenix-logo.png,1
+{priv => installer}/templates/new/config/prod.secret.exs,1
+introduction/I_learning.md => docs/introduction/learning.md,1
+lib/phoenix/socket/connection.ex,1
+docs/{bonus_guides/custom_errors.md => errors.md},1
+guides/styling/Phoenix_files/bourbon/helpers/_radial-arg-parser.scss,1
+installer/templates/phx_assets/{hero_icons => heroicons}/optimized.zip,1
+lib/mix/tasks/{phoenix/routes.ex => phoenix.routes.ex},1
+test/phoenix/{ => html}/html_test.exs,1
+styling/Phoenix_files/bourbon/css3/_appearance.scss,1
+styling/Phoenix_files/bourbon/functions/_contains.scss,1
+{priv => installer/templates}/static/bare/app.js,1
+installer/templates/phx_new/lib/{ => app_name}/web.ex,1
+priv/templates/{resource => html}/new.html.eex,1
+styling/Phoenix_files/bourbon/_bourbon-deprecated-upcoming.scss,1
+jest.config.js,1
+guides/styling/Phoenix_files/bourbon/css3/_perspective.scss,1
+guides/{docs => }/up_and_running.md,1
+priv/templates/{model => phoenix.gen.model}/model.ex,1
+styling/Phoenix_files/bourbon/addons/_size.scss,1
+styling/Phoenix_files/bourbon/css3/_border-radius.scss,1
+installer/templates/{assets => phx_assets}/app.css,1
+static-assets.md => I_static_assets.md,1
+guides/{docs => }/introduction/installation.md,1
+lib/phoenix/{status/status.txt => statuses.txt},1
+G_channels.md => docs/channels.md,1
+styling/Phoenix_files/bourbon/settings/_asset-pipeline.scss,1
+template/config/locales/en.exs,1
+installer/templates/phx_new/lib/{app_name => }/web/endpoint.ex,1
+installer/templates/{phx_new => phx_single}/test/test_helper.exs,1
+{priv => installer}/templates/new/web/controllers/page_controller.ex,1
+test/phoenix/{token_text.exs => token_test.exs},1
+config.md,1
+template/{lib/application_name/models => web/channels}/.gitkeep,1
+priv/template/priv/static/js/phoenix.js,1
+usage-rules/phoenix.md,1
+testing/{E_models => G_controllers.md},1
+test/phoenix/view/views/users/nav/top.html.eex,1
+priv/static/bare/.gitignore,1
+lib/phoenix/debug.ex,1
+guides/styling/Phoenix_files/bourbon/css3/_placeholder.scss,1
+guides/styling/Phoenix_files/bourbon/helpers/_is-num.scss,1
+test/{phoenix/integration => support}/http_client.exs,1
+lib/phoenix/{topic => }/topic.ex,1
+test/phoenix/view/views/layouts/layouts.exs,1
+priv/templates/{resource => model}/migration.exs,1
+test/phoenix/view/templates/user_test/profile/mini.html.eex,1
+priv/templates/{html => phoenix.gen.html}/edit.html.eex,1
+installer/templates/{assets => phx_assets}/brunch/app.js,1
+guides/{docs => }/views.md,1
+lib/phoenix/transports/{long_poll/server.ex => long_poll_server.ex},1
+{phoenix-landing-page => styling}/Phoenix_files/css.css,1
+lib/phoenix/transports/longpoller/server.ex,1
+bonus_guides/{E_config.md => F_config.md},1
+test/{ => support}/router_helper.exs,1
+lib/phoenix/{html => }/html.ex,1
+lib/mix/tasks/{phoenix/new.ex => phoenix.new.ex},1
+lib/mix/tasks/{phoenix.gen.resource.ex => phoenix.gen.html.ex},1
+test/phoenix/websocket_test.exs,1
+test/phoenix/{ => router}/routing_test.exs,1
+{template => priv/template}/config/dev.exs,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/controllers/page_controller.ex,1
+installer/templates/phx_assets/{app.scss => app.css},1
+installer/templates/phx_new/lib/{ => app_name}/web/controllers/page_controller.ex,1
+installer/templates/phx_new/test/web/views/page_view_test.exs,1
+priv/templates/phx.gen.html/{show.html.eex => show.html.heex},1
+recreate_default_css.exs,1
+installer/templates/new/lib/{application_name.ex => app_name.ex},1
+testing/{A_intruduction.md => A_introduction.md},1
+installer/templates/phx_assets/{webpack => }/webpack.config.js,1
+guides/{authentication => authn_authz}/mix_phx_gen_auth.md,1
+guides/styling/Phoenix_files/bourbon/settings/_asset-pipeline.scss,1
+guides/styling/Phoenix_files/custom.css.map,1
+test/phoenix/router/{nested_routing_test.exs => resources_test.exs},1
+lib/phoenix/endpoint/{adapter.ex => supervisor.ex},1
+{template => priv/template}/web/templates/page/error.html.eex,1
+installer/lib/mix/tasks/web.ex,1
+priv/templates/phx.gen.live/{form.html.leex => form_component.html.leex},1
+lib/phoenix/{channel => socket}/transport.ex,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/{ => app_name}/views/error_helpers.ex,1
+lib/phoenix/router/{context.ex => resources_context.ex},1
+lib/phoenix/{transports/v2/websocket_serializer.ex => socket/serializers/v2_json_serializer.ex},1
+installer/templates/assets/robots.txt,1
+priv/ecto/priv/repo/migrations/.keep,1
+{priv => installer}/templates/new/web/web.ex,1
+K_deployment.md => deployment/A_introduction.md,1
+guides/styling/Phoenix_files/bourbon/css3/_backface-visibility.scss,1
+{template => priv/template}/config/test.exs,1
+installer/templates/phx_assets/{app.css => app.scss},1
+lib/mix/tasks/phoenix.new.ex => installer/lib/phoenix_new.ex,1
+bonus_guides/A_upgrading_phoenix.md => docs/bonus_guides/upgrading_phoenix.md,1
+installer/templates/phx_umbrella/apps/app_name/lib/{ => app_name}/repo.ex,1
+installer/templates/{phx_new/lib/app_name/web => phx_web}/router.ex,1
+{template => priv/template}/config/prod.exs,1
+styling/Phoenix_files/bourbon/css3/_calc.scss,1
+installer/templates/phx_new/lib/{ => app_name}/web/views/page_view.ex,1
+installer/templates/phx_single/lib/{app_name_web/web.ex => app_name_web.ex},1
+guides/styling/Phoenix_files/bourbon/helpers/_convert-units.scss,1
+LICENSE => LICENSE.md,1
+guides/{adding_pages.md => request_lifecycle.md},1
+phoenix-landing-page/Phoenix_files/ga.js,1
+lib/phoenix/{mime => }/mimes.txt,1
+{assets => web/static}/js/phoenix.js,1
+priv/{ => templates}/ecto/priv/repo/migrations/.keep,1
+images/hello-from-phoenix.png,1
+priv/{template => static/brunch}/package.json,1
+test/{phoenix/socket/message_test.exs => socket_test.exs},1
+styling/Phoenix_files/bourbon/helpers/_linear-side-corner-parser.scss,1
+guides/{ => realtime}/presence.md,1
+guides/styling/Phoenix_files/bourbon/addons/_size.scss,1
+installer/templates/phx_web/components.ex => priv/templates/phx.gen.live/core_components.ex,1
+installer/templates/{phx_new/test/web => phx_test}/views/layout_view_test.exs,1
+guides/{ => introduction}/up_and_running.md,1
+installer/templates/phx_umbrella/apps/app_name_web/lib/{ => app_name}/controllers/page_controller.ex,1
+test/phoenix/endpoint/{adapter_test.exs => supervisor_test.exs},1
+docs/bonus_guides/config.md,1
+guides/styling/Phoenix_files/bourbon/functions/_modular-scale.scss,1
+styling/Phoenix_files/bourbon/functions/_is-length.scss,1
+installer/templates/static/brunch/{.gitignore => gitignore},1
+{priv => installer}/templates/new/config/dev.exs,1

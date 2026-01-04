@@ -1,0 +1,10 @@
+src/Presentation/Nop.Web/Administation/Models       => Admin Models
+src/Presentation/Nop.Web/Administation/Views        => Admin Views
+src/Presentation/Nop.Web/Administation/Controllers  => Admin Controllers
+src/Libraries/Nop.Services                          => Services
+src/Libraries/Nop.Core                              => Core
+src/Libraries/Nop.Data                              => Data Access
+src/Libraries/Nop.Services                          => Business Access Layer
+src/Presentation/Nop.Web/Models                     => Models
+src/Presentation/Nop.Web/Views                      => Views
+src/Presentation/Nop.Web/Controllers                => Controllers

@@ -22,7 +22,7 @@ docker run -v $PWD:/data -it code-maat-app -l /data/hib_evo.log -c git -a summar
 # Merge complexity and effort
 cloc ./ --by-file --csv --quiet --report-file=hib_lines.csv
 docker run -v $PWD:/data -it code-maat-app -l /data/hib_evo.log -c git -a revisions > hib_freqs.csv
-python scripts/merge_comp_freqs.py hib_freqs.csv hib_lines.csv
+python ../tools/scripts/merge_comp_freqs.py hib_freqs.csv hib_lines.csv
 
 # Visualize the hotspots
 wget https://s3.amazonaws.com/CodeMaatDistro/sample0.2.zip && unzip scripts0.2.zip

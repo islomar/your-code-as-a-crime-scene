@@ -31,6 +31,9 @@ https://pragprog.com/book/atcrime/code-as-acrime-scene
   * https://github.com/aserg-ufmg/JSCity (CodeCity for JavaScript)
 * Evolution of Code Maat: https://codescene.io/projects
   - [Applied to payments-api](https://codescene.io/projects/2962/jobs/16077/results)
+* https://dev.to/antoinega/analyze-your-git-5ej0
+
+
 
 
 ## Notes
